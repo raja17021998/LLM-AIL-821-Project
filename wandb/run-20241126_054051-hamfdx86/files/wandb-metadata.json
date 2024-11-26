@@ -1,0 +1,45 @@
+{
+  "os": "Linux-5.13.0-30-generic-x86_64-with-glibc2.31",
+  "python": "3.10.9",
+  "startedAt": "2024-11-26T00:10:51.790052Z",
+  "program": "/home/pooja/shashwat/LLM-Project/task3_bloom_lora_guj.py",
+  "codePath": "task3_bloom_lora_guj.py",
+  "email": "motamisn@gmail.com",
+  "root": "/home/pooja/shashwat/LLM-Project",
+  "host": "user",
+  "username": "pooja",
+  "executable": "/home/pooja/anaconda3/envs/kg_rag/bin/python",
+  "codePathLocal": "task3_bloom_lora_guj.py",
+  "cpu_count": 72,
+  "cpu_count_logical": 144,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "294216040448",
+      "used": "38987001856"
+    }
+  },
+  "memory": {
+    "total": "1081779036160"
+  },
+  "cpu": {
+    "count": 72,
+    "countLogical": 144
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

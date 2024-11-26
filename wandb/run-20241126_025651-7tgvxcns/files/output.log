@@ -1,0 +1,22 @@
+  0%|                                                                                                       | 0/830 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/pooja/shashwat/LLM-Project/task3_guj_lora.py", line 135, in <module>
+    trainer.train()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2427, in _inner_training_loop
+    batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 5045, in get_batch_samples
+    batch_samples += [next(epoch_iterator)]
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/accelerate/data_loader.py", line 552, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/data/data_collator.py", line 92, in default_data_collator
+    return torch_default_data_collator(features)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/data/data_collator.py", line 141, in torch_default_data_collator
+    batch["labels"] = torch.tensor([f["label"] for f in features], dtype=dtype)
+ValueError: too many dimensions 'str'

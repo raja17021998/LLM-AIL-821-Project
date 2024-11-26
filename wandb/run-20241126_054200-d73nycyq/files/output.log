@@ -1,0 +1,31 @@
+  0%|                                                                                                       | 0/210 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Traceback (most recent call last):
+  File "/home/pooja/shashwat/LLM-Project/task3_bloom_lora_guj.py", line 196, in <module>
+    trainer.train()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 3612, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/accelerate/accelerator.py", line 2237, in backward
+    self.scaler.scale(loss).backward(**kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/autograd/function.py", line 274, in apply
+    return user_fn(self, *args)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 157, in backward
+    torch.autograd.backward(outputs_with_grad, args_with_grad)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/autograd/function.py", line 274, in apply
+    return user_fn(self, *args)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/models/bloom/modeling_bloom.py", line 151, in backward
+    tmp = bloom_gelu_back(grad_output, input)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/models/bloom/modeling_bloom.py", line 136, in bloom_gelu_back
+    tanh_out = torch.tanh(0.79788456 * x * (1 + 0.044715 * x * x))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 268.00 MiB (GPU 0; 47.53 GiB total capacity; 4.29 GiB already allocated; 208.06 MiB free; 4.71 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

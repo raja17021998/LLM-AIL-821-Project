@@ -1,0 +1,75 @@
+  0%|                                                                           | 0/126 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+ 79%|███████████████████████████████████████████████████▌             | 100/126 [03:46<00:55,  2.12s/it]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+{'loss': 17.6791, 'grad_norm': 276.624755859375, 'learning_rate': 3.3730158730158734e-05, 'epoch': 0.79}
+{'loss': 2.1388, 'grad_norm': 141.71580505371094, 'learning_rate': 1.388888888888889e-05, 'epoch': 1.59}
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")     
+{'eval_loss': 1.503076434135437, 'eval_accuracy': 0.57, 'eval_runtime': 10.5745, 'eval_samples_per_second': 18.913, 'eval_steps_per_second': 1.229, 'epoch': 1.59}
+100%|█████████████████████████████████████████████████████████████████| 126/126 [04:41<00:00,  2.02s/it]2024-11-21 11:52:53,966 - INFO - __main__ - Activating adapter: <bound method PeftAdapterMixin.active_adapters of BloomForSequenceClassification(
+  (transformer): BloomModel(
+    (word_embeddings): Embedding(250880, 2048)
+    (word_embeddings_layernorm): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+    (h): ModuleList(
+      (0-23): 24 x BloomBlock(
+        (input_layernorm): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (self_attention): BloomAttention(
+          (query_key_value): Linear8bitLt(
+            in_features=2048, out_features=6144, bias=True
+            (lora_dropout): ModuleDict(
+              (default): Dropout(p=0.1, inplace=False)
+            )
+            (lora_A): ModuleDict(
+              (default): Linear(in_features=2048, out_features=8, bias=False)
+            )
+            (lora_B): ModuleDict(
+              (default): Linear(in_features=8, out_features=6144, bias=False)
+            )
+            (lora_embedding_A): ParameterDict()
+            (lora_embedding_B): ParameterDict()
+          )
+          (dense): Linear8bitLt(
+            in_features=2048, out_features=2048, bias=True
+            (lora_dropout): ModuleDict(
+              (default): Dropout(p=0.1, inplace=False)
+            )
+            (lora_A): ModuleDict(
+              (default): Linear(in_features=2048, out_features=8, bias=False)
+            )
+            (lora_B): ModuleDict(
+              (default): Linear(in_features=8, out_features=2048, bias=False)
+            )
+            (lora_embedding_A): ParameterDict()
+            (lora_embedding_B): ParameterDict()
+          )
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+        )
+        (post_attention_layernorm): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): BloomMLP(
+          (dense_h_to_4h): Linear8bitLt(in_features=2048, out_features=8192, bias=True)
+          (gelu_impl): BloomGelu()
+          (dense_4h_to_h): Linear8bitLt(in_features=8192, out_features=2048, bias=True)
+        )
+      )
+    )
+    (ln_f): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+  )
+  (score): ModulesToSaveWrapper(
+    (original_module): Linear(in_features=2048, out_features=2, bias=False)
+    (modules_to_save): ModuleDict(
+      (default): Linear(in_features=2048, out_features=2, bias=False)
+    )
+  )
+)>
+Traceback (most recent call last):
+  File "/home/pooja/shashwat/LLM-Project/task3_lora.py", line 162, in <module>
+    trainer.train()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2601, in _inner_training_loop
+    self._load_best_model()
+  File "/home/pooja/shashwat/LLM-Project/task3_lora.py", line 149, in _load_best_model
+    super()._load_best_model()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2891, in _load_best_model
+    active_adapter = model.active_adapters[0]
+TypeError: 'method' object is not subscriptable

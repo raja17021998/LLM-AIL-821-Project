@@ -1,0 +1,19 @@
+{"time":"2024-11-21T14:58:30.369487054+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-21T14:58:30.369521982+05:30","level":"INFO","msg":"created symlink","path":"/home/pooja/shashwat/LLM-Project/wandb/run-20241121_145830-z2lzlmhv/logs/debug-core.log"}
+{"time":"2024-11-21T14:58:30.487067206+05:30","level":"INFO","msg":"created new stream","id":"z2lzlmhv"}
+{"time":"2024-11-21T14:58:30.487398025+05:30","level":"INFO","msg":"stream: started","id":"z2lzlmhv"}
+{"time":"2024-11-21T14:58:30.487397862+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"z2lzlmhv"}
+{"time":"2024-11-21T14:58:30.487413066+05:30","level":"INFO","msg":"handler: started","stream_id":"z2lzlmhv"}
+{"time":"2024-11-21T14:58:30.487442719+05:30","level":"INFO","msg":"sender: started","stream_id":"z2lzlmhv"}
+{"time":"2024-11-21T14:58:30.969719667+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-21T15:23:13.452318058+05:30","level":"INFO","msg":"stream: closing","id":"z2lzlmhv"}
+{"time":"2024-11-21T15:23:13.452391426+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-21T15:23:13.453190165+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-21T15:23:13.79507952+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-21T15:23:13.79512278+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-21T15:23:13.79513482+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-21T15:23:14.593354872+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-21T15:23:14.944681177+05:30","level":"INFO","msg":"handler: closed","stream_id":"z2lzlmhv"}
+{"time":"2024-11-21T15:23:14.944750363+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"z2lzlmhv"}
+{"time":"2024-11-21T15:23:14.944766704+05:30","level":"INFO","msg":"sender: closed","stream_id":"z2lzlmhv"}
+{"time":"2024-11-21T15:23:14.944870458+05:30","level":"INFO","msg":"stream: closed","id":"z2lzlmhv"}

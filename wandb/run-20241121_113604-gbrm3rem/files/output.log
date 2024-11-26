@@ -1,0 +1,15 @@
+  0%|                                                                             | 0/2 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:13<00:00,  6.54s/it]
+{'train_runtime': 14.7048, 'train_samples_per_second': 1.36, 'train_steps_per_second': 0.136, 'train_loss': 10.089038848876953, 'epoch': 2.0}
+Evaluation on English validation set:
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 177.24it/s]
+Accuracy on English validation set: 0.5
+Evaluation on Bengali dataset:
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 298.19it/s]
+Accuracy on Bengali test data: 0.5

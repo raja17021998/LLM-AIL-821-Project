@@ -1,0 +1,75 @@
+  0%|                                                                                                       | 0/415 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+  3%|██▉                                                                                           | 13/415 [00:32<15:21,  2.29s/it]Traceback (most recent call last):
+  File "/home/pooja/shashwat/LLM-Project/task3_bloom_lora_guj.py", line 196, in <module>
+    trainer.train()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home/pooja/shashwat/LLM-Project/task3_bloom_lora_guj.py", line 155, in compute_loss
+    outputs = model(**inputs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 14, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/peft/peft_model.py", line 732, in forward
+    return self.base_model(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 94, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/models/bloom/modeling_bloom.py", line 1102, in forward
+    transformer_outputs = self.transformer(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/models/bloom/modeling_bloom.py", line 681, in forward
+    outputs = self._gradient_checkpointing_func(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 249, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 107, in forward
+    outputs = run_function(*args)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/models/bloom/modeling_bloom.py", line 401, in forward
+    attn_outputs = self.self_attention(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/models/bloom/modeling_bloom.py", line 266, in forward
+    fused_qkv = self.query_key_value(hidden_states)  # [batch_size, seq_length, 3 x hidden_size]
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/peft/tuners/lora.py", line 1149, in forward
+    result = super().forward(x)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/nn/modules.py", line 1009, in forward
+    out = bnb.matmul(x, self.weight, bias=self.bias, state=self.state)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 556, in matmul
+    return MatMul8bitLt.apply(A, B, out, bias, state)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 367, in forward
+    outlier_idx = torch.unique(coo_tensorA.colidx)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/_jit_internal.py", line 484, in fn
+    return if_false(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/_jit_internal.py", line 484, in fn
+    return if_false(*args, **kwargs)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/functional.py", line 885, in _return_output
+    output, _, _ = _unique_impl(input, sorted, return_inverse, return_counts, dim)
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/functional.py", line 799, in _unique_impl
+    output, inverse_indices, counts = torch._unique2(
+KeyboardInterrupt

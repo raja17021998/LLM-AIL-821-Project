@@ -1,0 +1,20 @@
+  0%|                                                                                                | 0/7560 [00:00<?, ?it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  1%|█                                                                                   | 100/7560 [00:57<1:02:03,  2.00it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6921, 'grad_norm': 26943.41796875, 'learning_rate': 4.966931216931217e-05, 'epoch': 0.26}
+{'loss': 0.6899, 'grad_norm': 9474.5263671875, 'learning_rate': 4.933862433862434e-05, 'epoch': 0.53}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6904542446136475, 'eval_accuracy': 0.5392514077509108, 'eval_runtime': 8.6728, 'eval_samples_per_second': 348.1, 'eval_steps_per_second': 5.535, 'epoch': 0.53}
+  3%|██▏                                                                                 | 200/7560 [01:55<1:00:50,  2.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6905, 'grad_norm': 17324.7734375, 'learning_rate': 4.900793650793651e-05, 'epoch': 0.79}
+{'loss': 0.6886, 'grad_norm': 5064.35546875, 'learning_rate': 4.8677248677248676e-05, 'epoch': 1.06}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6900597214698792, 'eval_accuracy': 0.5392514077509108, 'eval_runtime': 8.407, 'eval_samples_per_second': 359.107, 'eval_steps_per_second': 5.71, 'epoch': 1.06}
+  3%|██▎                                                                                 | 207/7560 [01:59<1:37:33,  1.26it/s]Traceback (most recent call last):
+  File "/home/pooja/shashwat/LLM-Project/task3_indic_bert.py", line 97, in <module>
+    trainer.train()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2486, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+KeyboardInterrupt

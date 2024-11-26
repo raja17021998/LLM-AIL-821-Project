@@ -1,0 +1,19 @@
+{"time":"2024-11-21T11:36:04.104219355+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-21T11:36:04.104250484+05:30","level":"INFO","msg":"created symlink","path":"/home/pooja/shashwat/LLM-Project/wandb/run-20241121_113604-gbrm3rem/logs/debug-core.log"}
+{"time":"2024-11-21T11:36:04.22178821+05:30","level":"INFO","msg":"created new stream","id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:04.221835997+05:30","level":"INFO","msg":"stream: started","id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:04.222048076+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:04.222093877+05:30","level":"INFO","msg":"handler: started","stream_id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:04.22214118+05:30","level":"INFO","msg":"sender: started","stream_id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:04.659578993+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-21T11:36:20.598044068+05:30","level":"INFO","msg":"stream: closing","id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:20.598111497+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-21T11:36:20.599107201+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-21T11:36:20.934214549+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-21T11:36:20.934246071+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-21T11:36:20.934251141+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-21T11:36:22.840191118+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-21T11:36:23.183382987+05:30","level":"INFO","msg":"handler: closed","stream_id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:23.183479262+05:30","level":"INFO","msg":"sender: closed","stream_id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:23.183466167+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gbrm3rem"}
+{"time":"2024-11-21T11:36:23.183655274+05:30","level":"INFO","msg":"stream: closed","id":"gbrm3rem"}

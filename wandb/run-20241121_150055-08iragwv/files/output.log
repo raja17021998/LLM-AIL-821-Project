@@ -1,0 +1,997 @@
+  0%|                                                                                                | 0/7560 [00:00<?, ?it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  1%|█                                                                                   | 100/7560 [01:05<1:02:26,  1.99it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6909, 'grad_norm': 33859.859375, 'learning_rate': 4.993386243386244e-05, 'epoch': 0.05}
+{'loss': 0.699, 'grad_norm': 30677.81640625, 'learning_rate': 4.986772486772487e-05, 'epoch': 0.11}
+{'loss': 0.6898, 'grad_norm': 13116.3603515625, 'learning_rate': 4.9801587301587306e-05, 'epoch': 0.16}
+{'loss': 0.6881, 'grad_norm': 24427.984375, 'learning_rate': 4.973544973544973e-05, 'epoch': 0.21}
+{'loss': 0.6955, 'grad_norm': 33503.4765625, 'learning_rate': 4.966931216931217e-05, 'epoch': 0.26}
+{'loss': 0.6906, 'grad_norm': 17843.9609375, 'learning_rate': 4.960317460317461e-05, 'epoch': 0.32}
+{'loss': 0.6896, 'grad_norm': 12786.7890625, 'learning_rate': 4.9537037037037035e-05, 'epoch': 0.37}
+{'loss': 0.6923, 'grad_norm': 17563.04296875, 'learning_rate': 4.9470899470899475e-05, 'epoch': 0.42}
+{'loss': 0.6865, 'grad_norm': 10129.6279296875, 'learning_rate': 4.940476190476191e-05, 'epoch': 0.48}
+{'loss': 0.6906, 'grad_norm': 4662.1669921875, 'learning_rate': 4.933862433862434e-05, 'epoch': 0.53}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6903362274169922, 'eval_accuracy': 0.5392514077509108, 'eval_runtime': 8.6711, 'eval_samples_per_second': 348.169, 'eval_steps_per_second': 5.536, 'epoch': 0.53}
+  3%|██▏                                                                                 | 200/7560 [02:03<1:00:53,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6964, 'grad_norm': 11577.625, 'learning_rate': 4.927248677248678e-05, 'epoch': 0.58}
+{'loss': 0.688, 'grad_norm': 13876.9423828125, 'learning_rate': 4.9206349206349204e-05, 'epoch': 0.63}
+{'loss': 0.6852, 'grad_norm': 21394.9453125, 'learning_rate': 4.914021164021164e-05, 'epoch': 0.69}
+{'loss': 0.6935, 'grad_norm': 76194.953125, 'learning_rate': 4.9074074074074075e-05, 'epoch': 0.74}
+{'loss': 0.6876, 'grad_norm': 225240.734375, 'learning_rate': 4.900793650793651e-05, 'epoch': 0.79}
+{'loss': 0.6903, 'grad_norm': 47377.08203125, 'learning_rate': 4.894179894179895e-05, 'epoch': 0.85}
+{'loss': 0.6831, 'grad_norm': 29385.705078125, 'learning_rate': 4.887566137566138e-05, 'epoch': 0.9}
+{'loss': 0.684, 'grad_norm': 46780.0859375, 'learning_rate': 4.880952380952381e-05, 'epoch': 0.95}
+{'loss': 0.6851, 'grad_norm': 68312.9765625, 'learning_rate': 4.8743386243386244e-05, 'epoch': 1.01}
+{'loss': 0.6827, 'grad_norm': 37289.2265625, 'learning_rate': 4.8677248677248676e-05, 'epoch': 1.06}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6910911202430725, 'eval_accuracy': 0.5392514077509108, 'eval_runtime': 8.723, 'eval_samples_per_second': 346.097, 'eval_steps_per_second': 5.503, 'epoch': 1.06}
+  4%|███▎                                                                                | 300/7560 [03:01<1:00:09,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6929, 'grad_norm': 116985.9609375, 'learning_rate': 4.8611111111111115e-05, 'epoch': 1.11}
+{'loss': 0.6831, 'grad_norm': 52498.0546875, 'learning_rate': 4.854497354497355e-05, 'epoch': 1.16}
+{'loss': 0.6828, 'grad_norm': 99822.65625, 'learning_rate': 4.847883597883598e-05, 'epoch': 1.22}
+{'loss': 0.6852, 'grad_norm': 59188.48828125, 'learning_rate': 4.841269841269841e-05, 'epoch': 1.27}
+{'loss': 0.6779, 'grad_norm': 98400.3046875, 'learning_rate': 4.834656084656085e-05, 'epoch': 1.32}
+{'loss': 0.6827, 'grad_norm': 64595.1875, 'learning_rate': 4.8280423280423284e-05, 'epoch': 1.38}
+{'loss': 0.6755, 'grad_norm': 85632.2421875, 'learning_rate': 4.8214285714285716e-05, 'epoch': 1.43}
+{'loss': 0.6707, 'grad_norm': 133560.046875, 'learning_rate': 4.814814814814815e-05, 'epoch': 1.48}
+{'loss': 0.6596, 'grad_norm': 82281.0390625, 'learning_rate': 4.808201058201058e-05, 'epoch': 1.53}
+{'loss': 0.6592, 'grad_norm': 161737.75, 'learning_rate': 4.801587301587302e-05, 'epoch': 1.59}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6531714200973511, 'eval_accuracy': 0.6389532957933091, 'eval_runtime': 8.5998, 'eval_samples_per_second': 351.056, 'eval_steps_per_second': 5.582, 'epoch': 1.59}
+  5%|████▌                                                                                 | 400/7560 [03:58<56:35,  2.11it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.645, 'grad_norm': 271555.8125, 'learning_rate': 4.794973544973545e-05, 'epoch': 1.64}
+{'loss': 0.6559, 'grad_norm': 175810.859375, 'learning_rate': 4.7883597883597884e-05, 'epoch': 1.69}
+{'loss': 0.6664, 'grad_norm': 98252.7421875, 'learning_rate': 4.781746031746032e-05, 'epoch': 1.75}
+{'loss': 0.6376, 'grad_norm': 67580.875, 'learning_rate': 4.7751322751322756e-05, 'epoch': 1.8}
+{'loss': 0.6897, 'grad_norm': 465625.78125, 'learning_rate': 4.768518518518519e-05, 'epoch': 1.85}
+{'loss': 0.6647, 'grad_norm': 300324.78125, 'learning_rate': 4.761904761904762e-05, 'epoch': 1.9}
+{'loss': 0.6594, 'grad_norm': 199278.75, 'learning_rate': 4.755291005291005e-05, 'epoch': 1.96}
+{'loss': 0.7141, 'grad_norm': 115473.5, 'learning_rate': 4.748677248677249e-05, 'epoch': 2.01}
+{'loss': 0.6949, 'grad_norm': 91029.9375, 'learning_rate': 4.7420634920634924e-05, 'epoch': 2.06}
+{'loss': 0.6807, 'grad_norm': 158926.671875, 'learning_rate': 4.7354497354497356e-05, 'epoch': 2.12}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.692512035369873, 'eval_accuracy': 0.5614441868168267, 'eval_runtime': 7.6834, 'eval_samples_per_second': 392.923, 'eval_steps_per_second': 6.247, 'epoch': 2.12}
+  7%|█████▋                                                                                | 500/7560 [04:56<57:25,  2.05it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.658, 'grad_norm': 542567.8125, 'learning_rate': 4.7288359788359796e-05, 'epoch': 2.17}
+{'loss': 0.6588, 'grad_norm': 346865.6875, 'learning_rate': 4.722222222222222e-05, 'epoch': 2.22}
+{'loss': 0.6832, 'grad_norm': 146127.03125, 'learning_rate': 4.715608465608466e-05, 'epoch': 2.28}
+{'loss': 0.6915, 'grad_norm': 89513.5078125, 'learning_rate': 4.708994708994709e-05, 'epoch': 2.33}
+{'loss': 0.6974, 'grad_norm': 80837.4140625, 'learning_rate': 4.7023809523809525e-05, 'epoch': 2.38}
+{'loss': 0.688, 'grad_norm': 53228.15234375, 'learning_rate': 4.6957671957671964e-05, 'epoch': 2.43}
+{'loss': 0.6875, 'grad_norm': 62946.28515625, 'learning_rate': 4.689153439153439e-05, 'epoch': 2.49}
+{'loss': 0.6934, 'grad_norm': 163938.484375, 'learning_rate': 4.682539682539683e-05, 'epoch': 2.54}
+{'loss': 0.6842, 'grad_norm': 137437.609375, 'learning_rate': 4.675925925925926e-05, 'epoch': 2.59}
+{'loss': 0.6911, 'grad_norm': 55826.578125, 'learning_rate': 4.669312169312169e-05, 'epoch': 2.65}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6854650974273682, 'eval_accuracy': 0.5385889367340179, 'eval_runtime': 8.6957, 'eval_samples_per_second': 347.185, 'eval_steps_per_second': 5.52, 'epoch': 2.65}
+  8%|██████▊                                                                               | 600/7560 [05:55<57:49,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6711, 'grad_norm': 165911.78125, 'learning_rate': 4.662698412698413e-05, 'epoch': 2.7}
+{'loss': 0.6861, 'grad_norm': 735949.1875, 'learning_rate': 4.656084656084656e-05, 'epoch': 2.75}
+{'loss': 0.6695, 'grad_norm': 58933.6640625, 'learning_rate': 4.6494708994709e-05, 'epoch': 2.8}
+{'loss': 0.677, 'grad_norm': 46309.4765625, 'learning_rate': 4.642857142857143e-05, 'epoch': 2.86}
+{'loss': 0.673, 'grad_norm': 39338.87890625, 'learning_rate': 4.636243386243386e-05, 'epoch': 2.91}
+{'loss': 0.6694, 'grad_norm': 35692.546875, 'learning_rate': 4.62962962962963e-05, 'epoch': 2.96}
+{'loss': 0.6688, 'grad_norm': 56749.03125, 'learning_rate': 4.623015873015873e-05, 'epoch': 3.02}
+{'loss': 0.6892, 'grad_norm': 55303.5, 'learning_rate': 4.6164021164021165e-05, 'epoch': 3.07}
+{'loss': 0.6736, 'grad_norm': 17400.3125, 'learning_rate': 4.60978835978836e-05, 'epoch': 3.12}
+{'loss': 0.6892, 'grad_norm': 21932.60546875, 'learning_rate': 4.603174603174603e-05, 'epoch': 3.17}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6778993010520935, 'eval_accuracy': 0.5392514077509108, 'eval_runtime': 8.6126, 'eval_samples_per_second': 350.533, 'eval_steps_per_second': 5.573, 'epoch': 3.17}
+  9%|███████▉                                                                              | 700/7560 [06:53<56:26,  2.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6633, 'grad_norm': 28932.271484375, 'learning_rate': 4.596560846560847e-05, 'epoch': 3.23}
+{'loss': 0.6686, 'grad_norm': 48460.28515625, 'learning_rate': 4.58994708994709e-05, 'epoch': 3.28}
+{'loss': 0.6569, 'grad_norm': 23034.2890625, 'learning_rate': 4.5833333333333334e-05, 'epoch': 3.33}
+{'loss': 0.682, 'grad_norm': 29336.3671875, 'learning_rate': 4.576719576719577e-05, 'epoch': 3.39}
+{'loss': 0.6559, 'grad_norm': 22890.271484375, 'learning_rate': 4.5701058201058205e-05, 'epoch': 3.44}
+{'loss': 0.664, 'grad_norm': 302678.25, 'learning_rate': 4.563492063492064e-05, 'epoch': 3.49}
+{'loss': 0.6787, 'grad_norm': 53637.76953125, 'learning_rate': 4.556878306878307e-05, 'epoch': 3.54}
+{'loss': 0.6388, 'grad_norm': 35362.28125, 'learning_rate': 4.55026455026455e-05, 'epoch': 3.6}
+{'loss': 0.6575, 'grad_norm': 34579.51171875, 'learning_rate': 4.543650793650794e-05, 'epoch': 3.65}
+{'loss': 0.6642, 'grad_norm': 20747.701171875, 'learning_rate': 4.5370370370370374e-05, 'epoch': 3.7}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6731309294700623, 'eval_accuracy': 0.5836369658827426, 'eval_runtime': 8.5825, 'eval_samples_per_second': 351.762, 'eval_steps_per_second': 5.593, 'epoch': 3.7}
+ 11%|█████████                                                                             | 800/7560 [07:50<53:12,  2.12it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6713, 'grad_norm': 59817.8671875, 'learning_rate': 4.5304232804232806e-05, 'epoch': 3.76}
+{'loss': 0.6727, 'grad_norm': 1137268.125, 'learning_rate': 4.523809523809524e-05, 'epoch': 3.81}
+{'loss': 0.7172, 'grad_norm': 222677.5, 'learning_rate': 4.517195767195768e-05, 'epoch': 3.86}
+{'loss': 0.7058, 'grad_norm': 178591.140625, 'learning_rate': 4.510582010582011e-05, 'epoch': 3.92}
+{'loss': 0.6809, 'grad_norm': 411403.78125, 'learning_rate': 4.503968253968254e-05, 'epoch': 3.97}
+{'loss': 0.6762, 'grad_norm': 549082.0625, 'learning_rate': 4.4973544973544974e-05, 'epoch': 4.02}
+{'loss': 0.6818, 'grad_norm': 180545.53125, 'learning_rate': 4.490740740740741e-05, 'epoch': 4.07}
+{'loss': 0.6957, 'grad_norm': 74261.2421875, 'learning_rate': 4.4841269841269846e-05, 'epoch': 4.13}
+{'loss': 0.6777, 'grad_norm': 645534.9375, 'learning_rate': 4.477513227513228e-05, 'epoch': 4.18}
+{'loss': 0.6776, 'grad_norm': 296272.875, 'learning_rate': 4.470899470899471e-05, 'epoch': 4.23}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6702936291694641, 'eval_accuracy': 0.6051672739317655, 'eval_runtime': 8.6699, 'eval_samples_per_second': 348.215, 'eval_steps_per_second': 5.536, 'epoch': 4.23}
+ 12%|██████████▏                                                                           | 900/7560 [08:49<55:21,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6845, 'grad_norm': 150753.96875, 'learning_rate': 4.464285714285715e-05, 'epoch': 4.29}
+{'loss': 0.6595, 'grad_norm': 138061.796875, 'learning_rate': 4.4576719576719575e-05, 'epoch': 4.34}
+{'loss': 0.6749, 'grad_norm': 64341.140625, 'learning_rate': 4.4510582010582014e-05, 'epoch': 4.39}
+{'loss': 0.6882, 'grad_norm': 86100.4453125, 'learning_rate': 4.4444444444444447e-05, 'epoch': 4.44}
+{'loss': 0.6734, 'grad_norm': 502775.78125, 'learning_rate': 4.437830687830688e-05, 'epoch': 4.5}
+{'loss': 0.6661, 'grad_norm': 646369.1875, 'learning_rate': 4.431216931216932e-05, 'epoch': 4.55}
+{'loss': 0.6494, 'grad_norm': 519110.3125, 'learning_rate': 4.4246031746031744e-05, 'epoch': 4.6}
+{'loss': 0.6648, 'grad_norm': 228294.15625, 'learning_rate': 4.417989417989418e-05, 'epoch': 4.66}
+{'loss': 0.6961, 'grad_norm': 150816.703125, 'learning_rate': 4.4113756613756615e-05, 'epoch': 4.71}
+{'loss': 0.661, 'grad_norm': 336236.09375, 'learning_rate': 4.404761904761905e-05, 'epoch': 4.76}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6823192834854126, 'eval_accuracy': 0.6074859224908911, 'eval_runtime': 8.6962, 'eval_samples_per_second': 347.162, 'eval_steps_per_second': 5.52, 'epoch': 4.76}
+ 13%|███████████▏                                                                         | 1000/7560 [09:47<54:34,  2.00it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6586, 'grad_norm': 312520.46875, 'learning_rate': 4.3981481481481486e-05, 'epoch': 4.81}
+{'loss': 0.6476, 'grad_norm': 218049.703125, 'learning_rate': 4.391534391534391e-05, 'epoch': 4.87}
+{'loss': 0.6237, 'grad_norm': 60096.07421875, 'learning_rate': 4.384920634920635e-05, 'epoch': 4.92}
+{'loss': 0.6613, 'grad_norm': 231618.5625, 'learning_rate': 4.378306878306879e-05, 'epoch': 4.97}
+{'loss': 0.6518, 'grad_norm': 249224.953125, 'learning_rate': 4.3716931216931216e-05, 'epoch': 5.03}
+{'loss': 0.6418, 'grad_norm': 113645.15625, 'learning_rate': 4.3650793650793655e-05, 'epoch': 5.08}
+{'loss': 0.6166, 'grad_norm': 126001.8125, 'learning_rate': 4.358465608465609e-05, 'epoch': 5.13}
+{'loss': 0.6475, 'grad_norm': 196347.65625, 'learning_rate': 4.351851851851852e-05, 'epoch': 5.19}
+{'loss': 0.6009, 'grad_norm': 291641.21875, 'learning_rate': 4.345238095238096e-05, 'epoch': 5.24}
+{'loss': 0.5797, 'grad_norm': 113581.9921875, 'learning_rate': 4.3386243386243384e-05, 'epoch': 5.29}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6324125528335571, 'eval_accuracy': 0.6608148393507784, 'eval_runtime': 8.6636, 'eval_samples_per_second': 348.471, 'eval_steps_per_second': 5.54, 'epoch': 5.29}
+ 15%|████████████▎                                                                        | 1100/7560 [10:44<53:27,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.5985, 'grad_norm': 137465.59375, 'learning_rate': 4.332010582010582e-05, 'epoch': 5.34}
+{'loss': 0.6224, 'grad_norm': 74700.1953125, 'learning_rate': 4.3253968253968256e-05, 'epoch': 5.4}
+{'loss': 0.6181, 'grad_norm': 246415.921875, 'learning_rate': 4.318783068783069e-05, 'epoch': 5.45}
+{'loss': 0.6397, 'grad_norm': 44170.24609375, 'learning_rate': 4.312169312169313e-05, 'epoch': 5.5}
+{'loss': 0.6359, 'grad_norm': 99302.6953125, 'learning_rate': 4.305555555555556e-05, 'epoch': 5.56}
+{'loss': 0.618, 'grad_norm': 1196254.5, 'learning_rate': 4.298941798941799e-05, 'epoch': 5.61}
+{'loss': 0.6212, 'grad_norm': 190346.953125, 'learning_rate': 4.2923280423280424e-05, 'epoch': 5.66}
+{'loss': 0.6129, 'grad_norm': 82346.3125, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 0.6181, 'grad_norm': 278559.3125, 'learning_rate': 4.2791005291005295e-05, 'epoch': 5.77}
+{'loss': 0.6488, 'grad_norm': 338343.78125, 'learning_rate': 4.272486772486773e-05, 'epoch': 5.82}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6494011878967285, 'eval_accuracy': 0.5925803246107982, 'eval_runtime': 8.7177, 'eval_samples_per_second': 346.306, 'eval_steps_per_second': 5.506, 'epoch': 5.82}
+ 16%|█████████████▍                                                                       | 1200/7560 [11:43<51:13,  2.07it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6476, 'grad_norm': 404635.6875, 'learning_rate': 4.265873015873016e-05, 'epoch': 5.87}
+{'loss': 0.6365, 'grad_norm': 123023.8828125, 'learning_rate': 4.259259259259259e-05, 'epoch': 5.93}
+{'loss': 0.6187, 'grad_norm': 102395.1484375, 'learning_rate': 4.252645502645503e-05, 'epoch': 5.98}
+{'loss': 0.5842, 'grad_norm': 102378.0859375, 'learning_rate': 4.2460317460317464e-05, 'epoch': 6.03}
+{'loss': 0.5992, 'grad_norm': 213784.78125, 'learning_rate': 4.2394179894179896e-05, 'epoch': 6.08}
+{'loss': 0.5883, 'grad_norm': 69434.6171875, 'learning_rate': 4.232804232804233e-05, 'epoch': 6.14}
+{'loss': 0.6079, 'grad_norm': 115877.21875, 'learning_rate': 4.226190476190476e-05, 'epoch': 6.19}
+{'loss': 0.531, 'grad_norm': 289437.875, 'learning_rate': 4.21957671957672e-05, 'epoch': 6.24}
+{'loss': 0.6194, 'grad_norm': 498209.46875, 'learning_rate': 4.212962962962963e-05, 'epoch': 6.3}
+{'loss': 0.6066, 'grad_norm': 155577.453125, 'learning_rate': 4.2063492063492065e-05, 'epoch': 6.35}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6003671884536743, 'eval_accuracy': 0.6690957270619411, 'eval_runtime': 8.9703, 'eval_samples_per_second': 336.556, 'eval_steps_per_second': 5.351, 'epoch': 6.35}
+ 17%|██████████████▌                                                                      | 1300/7560 [12:42<51:45,  2.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.5997, 'grad_norm': 497172.0625, 'learning_rate': 4.1997354497354504e-05, 'epoch': 6.4}
+{'loss': 0.5762, 'grad_norm': 342877.40625, 'learning_rate': 4.193121693121693e-05, 'epoch': 6.46}
+{'loss': 0.5982, 'grad_norm': 458171.125, 'learning_rate': 4.186507936507937e-05, 'epoch': 6.51}
+{'loss': 0.547, 'grad_norm': 430851.625, 'learning_rate': 4.17989417989418e-05, 'epoch': 6.56}
+{'loss': 0.5801, 'grad_norm': 74542.328125, 'learning_rate': 4.173280423280423e-05, 'epoch': 6.61}
+{'loss': 0.5293, 'grad_norm': 574086.5625, 'learning_rate': 4.166666666666667e-05, 'epoch': 6.67}
+{'loss': 0.5934, 'grad_norm': 1307070.625, 'learning_rate': 4.16005291005291e-05, 'epoch': 6.72}
+{'loss': 0.5916, 'grad_norm': 322900.875, 'learning_rate': 4.153439153439154e-05, 'epoch': 6.77}
+{'loss': 0.631, 'grad_norm': 375883.125, 'learning_rate': 4.1468253968253976e-05, 'epoch': 6.83}
+{'loss': 0.5324, 'grad_norm': 172506.484375, 'learning_rate': 4.14021164021164e-05, 'epoch': 6.88}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6455249786376953, 'eval_accuracy': 0.6793640278237827, 'eval_runtime': 8.6369, 'eval_samples_per_second': 349.548, 'eval_steps_per_second': 5.558, 'epoch': 6.88}
+ 19%|███████████████▋                                                                     | 1400/7560 [13:40<51:26,  2.00it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6578, 'grad_norm': 252817.484375, 'learning_rate': 4.133597883597884e-05, 'epoch': 6.93}
+{'loss': 0.6152, 'grad_norm': 271329.4375, 'learning_rate': 4.126984126984127e-05, 'epoch': 6.98}
+{'loss': 0.5765, 'grad_norm': 355797.1875, 'learning_rate': 4.1203703703703705e-05, 'epoch': 7.04}
+{'loss': 0.5591, 'grad_norm': 243059.484375, 'learning_rate': 4.1137566137566144e-05, 'epoch': 7.09}
+{'loss': 0.558, 'grad_norm': 313715.0625, 'learning_rate': 4.107142857142857e-05, 'epoch': 7.14}
+{'loss': 0.5075, 'grad_norm': 189215.796875, 'learning_rate': 4.100529100529101e-05, 'epoch': 7.2}
+{'loss': 0.5112, 'grad_norm': 157843.96875, 'learning_rate': 4.093915343915344e-05, 'epoch': 7.25}
+{'loss': 0.5284, 'grad_norm': 136968.421875, 'learning_rate': 4.0873015873015874e-05, 'epoch': 7.3}
+{'loss': 0.5492, 'grad_norm': 270279.6875, 'learning_rate': 4.080687830687831e-05, 'epoch': 7.35}
+{'loss': 0.568, 'grad_norm': 311947.34375, 'learning_rate': 4.074074074074074e-05, 'epoch': 7.41}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.5812444090843201, 'eval_accuracy': 0.6803577343491223, 'eval_runtime': 8.6587, 'eval_samples_per_second': 348.667, 'eval_steps_per_second': 5.544, 'epoch': 7.41}
+ 20%|████████████████▊                                                                    | 1500/7560 [14:37<50:10,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.5492, 'grad_norm': 135591.640625, 'learning_rate': 4.067460317460318e-05, 'epoch': 7.46}
+{'loss': 0.5729, 'grad_norm': 89527.1796875, 'learning_rate': 4.060846560846561e-05, 'epoch': 7.51}
+{'loss': 0.5503, 'grad_norm': 295123.46875, 'learning_rate': 4.054232804232804e-05, 'epoch': 7.57}
+{'loss': 0.5806, 'grad_norm': 149138.109375, 'learning_rate': 4.047619047619048e-05, 'epoch': 7.62}
+{'loss': 0.5509, 'grad_norm': 828754.0625, 'learning_rate': 4.041005291005291e-05, 'epoch': 7.67}
+{'loss': 0.5772, 'grad_norm': 192538.65625, 'learning_rate': 4.0343915343915346e-05, 'epoch': 7.72}
+{'loss': 0.5701, 'grad_norm': 120963.8125, 'learning_rate': 4.027777777777778e-05, 'epoch': 7.78}
+{'loss': 0.5588, 'grad_norm': 477470.75, 'learning_rate': 4.021164021164021e-05, 'epoch': 7.83}
+{'loss': 0.5824, 'grad_norm': 174548.84375, 'learning_rate': 4.014550264550265e-05, 'epoch': 7.88}
+{'loss': 0.5157, 'grad_norm': 463707.0, 'learning_rate': 4.007936507936508e-05, 'epoch': 7.94}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6311952471733093, 'eval_accuracy': 0.6594898973169924, 'eval_runtime': 8.6525, 'eval_samples_per_second': 348.918, 'eval_steps_per_second': 5.548, 'epoch': 7.94}
+ 21%|█████████████████▉                                                                   | 1600/7560 [15:37<48:10,  2.06it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.5639, 'grad_norm': 104575.5078125, 'learning_rate': 4.0013227513227514e-05, 'epoch': 7.99}
+{'loss': 0.541, 'grad_norm': 98270.953125, 'learning_rate': 3.9947089947089946e-05, 'epoch': 8.04}
+{'loss': 0.5055, 'grad_norm': 220307.5, 'learning_rate': 3.9880952380952386e-05, 'epoch': 8.1}
+{'loss': 0.514, 'grad_norm': 176358.46875, 'learning_rate': 3.981481481481482e-05, 'epoch': 8.15}
+{'loss': 0.5226, 'grad_norm': 238831.0625, 'learning_rate': 3.974867724867725e-05, 'epoch': 8.2}
+{'loss': 0.4989, 'grad_norm': 285321.6875, 'learning_rate': 3.968253968253968e-05, 'epoch': 8.25}
+{'loss': 0.478, 'grad_norm': 292195.4375, 'learning_rate': 3.9616402116402115e-05, 'epoch': 8.31}
+{'loss': 0.4425, 'grad_norm': 223228.296875, 'learning_rate': 3.9550264550264554e-05, 'epoch': 8.36}
+{'loss': 0.5318, 'grad_norm': 426609.5, 'learning_rate': 3.9484126984126986e-05, 'epoch': 8.41}
+{'loss': 0.5066, 'grad_norm': 143019.203125, 'learning_rate': 3.941798941798942e-05, 'epoch': 8.47}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.588375985622406, 'eval_accuracy': 0.6810202053660153, 'eval_runtime': 9.0062, 'eval_samples_per_second': 335.214, 'eval_steps_per_second': 5.33, 'epoch': 8.47}
+ 22%|███████████████████                                                                  | 1700/7560 [16:35<49:02,  1.99it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.532, 'grad_norm': 196968.15625, 'learning_rate': 3.935185185185186e-05, 'epoch': 8.52}
+{'loss': 0.5137, 'grad_norm': 173491.09375, 'learning_rate': 3.928571428571429e-05, 'epoch': 8.57}
+{'loss': 0.5107, 'grad_norm': 456960.71875, 'learning_rate': 3.921957671957672e-05, 'epoch': 8.62}
+{'loss': 0.5598, 'grad_norm': 261765.4375, 'learning_rate': 3.9153439153439155e-05, 'epoch': 8.68}
+{'loss': 0.5953, 'grad_norm': 121155.359375, 'learning_rate': 3.908730158730159e-05, 'epoch': 8.73}
+{'loss': 0.5087, 'grad_norm': 339237.1875, 'learning_rate': 3.9021164021164026e-05, 'epoch': 8.78}
+{'loss': 0.5208, 'grad_norm': 253084.703125, 'learning_rate': 3.895502645502646e-05, 'epoch': 8.84}
+{'loss': 0.5031, 'grad_norm': 354587.90625, 'learning_rate': 3.888888888888889e-05, 'epoch': 8.89}
+{'loss': 0.5103, 'grad_norm': 144496.546875, 'learning_rate': 3.882275132275133e-05, 'epoch': 8.94}
+{'loss': 0.5381, 'grad_norm': 222139.96875, 'learning_rate': 3.8756613756613755e-05, 'epoch': 8.99}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6013752222061157, 'eval_accuracy': 0.6727393176548526, 'eval_runtime': 8.6275, 'eval_samples_per_second': 349.929, 'eval_steps_per_second': 5.564, 'epoch': 8.99}
+ 24%|████████████████████▏                                                                | 1800/7560 [17:32<47:47,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.5203, 'grad_norm': 176874.109375, 'learning_rate': 3.8690476190476195e-05, 'epoch': 9.05}
+{'loss': 0.4563, 'grad_norm': 349119.46875, 'learning_rate': 3.862433862433863e-05, 'epoch': 9.1}
+{'loss': 0.4631, 'grad_norm': 159561.84375, 'learning_rate': 3.855820105820106e-05, 'epoch': 9.15}
+{'loss': 0.4655, 'grad_norm': 174518.046875, 'learning_rate': 3.84920634920635e-05, 'epoch': 9.21}
+{'loss': 0.4645, 'grad_norm': 414303.5625, 'learning_rate': 3.8425925925925924e-05, 'epoch': 9.26}
+{'loss': 0.4671, 'grad_norm': 263713.96875, 'learning_rate': 3.835978835978836e-05, 'epoch': 9.31}
+{'loss': 0.4375, 'grad_norm': 257704.046875, 'learning_rate': 3.8293650793650795e-05, 'epoch': 9.37}
+{'loss': 0.4897, 'grad_norm': 248488.375, 'learning_rate': 3.822751322751323e-05, 'epoch': 9.42}
+{'loss': 0.5184, 'grad_norm': 331962.15625, 'learning_rate': 3.816137566137567e-05, 'epoch': 9.47}
+{'loss': 0.4573, 'grad_norm': 167108.53125, 'learning_rate': 3.809523809523809e-05, 'epoch': 9.52}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6340090036392212, 'eval_accuracy': 0.6846637959589268, 'eval_runtime': 8.6517, 'eval_samples_per_second': 348.95, 'eval_steps_per_second': 5.548, 'epoch': 9.52}
+ 25%|█████████████████████▎                                                               | 1900/7560 [18:29<44:52,  2.10it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.4791, 'grad_norm': 368159.03125, 'learning_rate': 3.802910052910053e-05, 'epoch': 9.58}
+{'loss': 0.4742, 'grad_norm': 165746.34375, 'learning_rate': 3.7962962962962964e-05, 'epoch': 9.63}
+{'loss': 0.4737, 'grad_norm': 352184.65625, 'learning_rate': 3.7896825396825396e-05, 'epoch': 9.68}
+{'loss': 0.4491, 'grad_norm': 249697.8125, 'learning_rate': 3.7830687830687835e-05, 'epoch': 9.74}
+{'loss': 0.4541, 'grad_norm': 375676.25, 'learning_rate': 3.776455026455027e-05, 'epoch': 9.79}
+{'loss': 0.447, 'grad_norm': 307225.75, 'learning_rate': 3.76984126984127e-05, 'epoch': 9.84}
+{'loss': 0.4469, 'grad_norm': 306106.09375, 'learning_rate': 3.763227513227514e-05, 'epoch': 9.89}
+{'loss': 0.4349, 'grad_norm': 220904.09375, 'learning_rate': 3.7566137566137564e-05, 'epoch': 9.95}
+{'loss': 0.4482, 'grad_norm': 243438.890625, 'learning_rate': 3.7500000000000003e-05, 'epoch': 10.0}
+{'loss': 0.3853, 'grad_norm': 159862.515625, 'learning_rate': 3.7433862433862436e-05, 'epoch': 10.05}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6686214208602905, 'eval_accuracy': 0.6720768466379596, 'eval_runtime': 8.4935, 'eval_samples_per_second': 355.449, 'eval_steps_per_second': 5.651, 'epoch': 10.05}
+ 26%|██████████████████████▍                                                              | 2000/7560 [19:27<46:41,  1.98it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.3762, 'grad_norm': 199686.6875, 'learning_rate': 3.736772486772487e-05, 'epoch': 10.11}
+{'loss': 0.3899, 'grad_norm': 442528.5, 'learning_rate': 3.730158730158731e-05, 'epoch': 10.16}
+{'loss': 0.3628, 'grad_norm': 398605.40625, 'learning_rate': 3.723544973544973e-05, 'epoch': 10.21}
+{'loss': 0.4169, 'grad_norm': 477138.71875, 'learning_rate': 3.716931216931217e-05, 'epoch': 10.26}
+{'loss': 0.4061, 'grad_norm': 402342.59375, 'learning_rate': 3.7103174603174604e-05, 'epoch': 10.32}
+{'loss': 0.4039, 'grad_norm': 365010.46875, 'learning_rate': 3.7037037037037037e-05, 'epoch': 10.37}
+{'loss': 0.4457, 'grad_norm': 464342.0, 'learning_rate': 3.6970899470899476e-05, 'epoch': 10.42}
+{'loss': 0.4132, 'grad_norm': 218878.078125, 'learning_rate': 3.690476190476191e-05, 'epoch': 10.48}
+{'loss': 0.4153, 'grad_norm': 623331.3125, 'learning_rate': 3.683862433862434e-05, 'epoch': 10.53}
+{'loss': 0.442, 'grad_norm': 277096.21875, 'learning_rate': 3.677248677248677e-05, 'epoch': 10.58}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.6734053492546082, 'eval_accuracy': 0.6737330241801921, 'eval_runtime': 8.8626, 'eval_samples_per_second': 340.644, 'eval_steps_per_second': 5.416, 'epoch': 10.58}
+ 28%|███████████████████████▌                                                             | 2100/7560 [20:26<45:44,  1.99it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.3635, 'grad_norm': 223721.21875, 'learning_rate': 3.6706349206349205e-05, 'epoch': 10.63}
+{'loss': 0.3736, 'grad_norm': 314940.125, 'learning_rate': 3.6640211640211644e-05, 'epoch': 10.69}
+{'loss': 0.3634, 'grad_norm': 262676.8125, 'learning_rate': 3.6574074074074076e-05, 'epoch': 10.74}
+{'loss': 0.4045, 'grad_norm': 548442.625, 'learning_rate': 3.650793650793651e-05, 'epoch': 10.79}
+{'loss': 0.4028, 'grad_norm': 434670.1875, 'learning_rate': 3.644179894179894e-05, 'epoch': 10.85}
+{'loss': 0.3709, 'grad_norm': 313637.4375, 'learning_rate': 3.637566137566138e-05, 'epoch': 10.9}
+{'loss': 0.4167, 'grad_norm': 231546.546875, 'learning_rate': 3.630952380952381e-05, 'epoch': 10.95}
+{'loss': 0.3744, 'grad_norm': 273936.15625, 'learning_rate': 3.6243386243386245e-05, 'epoch': 11.01}
+{'loss': 0.2958, 'grad_norm': 685724.9375, 'learning_rate': 3.617724867724868e-05, 'epoch': 11.06}
+{'loss': 0.2919, 'grad_norm': 467833.65625, 'learning_rate': 3.611111111111111e-05, 'epoch': 11.11}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.8948155045509338, 'eval_accuracy': 0.6528651871480623, 'eval_runtime': 8.5808, 'eval_samples_per_second': 351.833, 'eval_steps_per_second': 5.594, 'epoch': 11.11}
+ 29%|████████████████████████▋                                                            | 2200/7560 [21:24<44:28,  2.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.3151, 'grad_norm': 515237.71875, 'learning_rate': 3.604497354497355e-05, 'epoch': 11.16}
+{'loss': 0.2931, 'grad_norm': 336166.8125, 'learning_rate': 3.597883597883598e-05, 'epoch': 11.22}
+{'loss': 0.3176, 'grad_norm': 385213.1875, 'learning_rate': 3.591269841269841e-05, 'epoch': 11.27}
+{'loss': 0.3356, 'grad_norm': 590957.25, 'learning_rate': 3.584656084656085e-05, 'epoch': 11.32}
+{'loss': 0.3396, 'grad_norm': 550714.6875, 'learning_rate': 3.578042328042328e-05, 'epoch': 11.38}
+{'loss': 0.3201, 'grad_norm': 289826.8125, 'learning_rate': 3.571428571428572e-05, 'epoch': 11.43}
+{'loss': 0.3097, 'grad_norm': 968921.0625, 'learning_rate': 3.564814814814815e-05, 'epoch': 11.48}
+{'loss': 0.3023, 'grad_norm': 580298.0625, 'learning_rate': 3.558201058201058e-05, 'epoch': 11.53}
+{'loss': 0.3469, 'grad_norm': 437684.65625, 'learning_rate': 3.551587301587302e-05, 'epoch': 11.59}
+{'loss': 0.3618, 'grad_norm': 496176.09375, 'learning_rate': 3.5449735449735446e-05, 'epoch': 11.64}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 0.7653582096099854, 'eval_accuracy': 0.6588274263000994, 'eval_runtime': 8.6511, 'eval_samples_per_second': 348.975, 'eval_steps_per_second': 5.548, 'epoch': 11.64}
+ 30%|█████████████████████████▊                                                           | 2300/7560 [22:19<42:33,  2.06it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.2671, 'grad_norm': 384929.84375, 'learning_rate': 3.5383597883597885e-05, 'epoch': 11.69}
+{'loss': 0.3593, 'grad_norm': 836205.625, 'learning_rate': 3.5317460317460324e-05, 'epoch': 11.75}
+{'loss': 0.3394, 'grad_norm': 940903.1875, 'learning_rate': 3.525132275132275e-05, 'epoch': 11.8}
+{'loss': 0.3528, 'grad_norm': 245344.078125, 'learning_rate': 3.518518518518519e-05, 'epoch': 11.85}
+{'loss': 0.2991, 'grad_norm': 490165.90625, 'learning_rate': 3.511904761904762e-05, 'epoch': 11.9}
+{'loss': 0.309, 'grad_norm': 520882.71875, 'learning_rate': 3.5052910052910054e-05, 'epoch': 11.96}
+{'loss': 0.3304, 'grad_norm': 245158.765625, 'learning_rate': 3.498677248677249e-05, 'epoch': 12.01}
+{'loss': 0.2283, 'grad_norm': 392128.75, 'learning_rate': 3.492063492063492e-05, 'epoch': 12.06}
+{'loss': 0.1695, 'grad_norm': 740218.0625, 'learning_rate': 3.485449735449736e-05, 'epoch': 12.12}
+{'loss': 0.211, 'grad_norm': 609460.5, 'learning_rate': 3.478835978835979e-05, 'epoch': 12.17}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.0274381637573242, 'eval_accuracy': 0.6512090096058297, 'eval_runtime': 7.6548, 'eval_samples_per_second': 394.393, 'eval_steps_per_second': 6.271, 'epoch': 12.17}
+ 32%|██████████████████████████▉                                                          | 2400/7560 [22:58<28:28,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1734, 'grad_norm': 498424.65625, 'learning_rate': 3.472222222222222e-05, 'epoch': 12.22}
+{'loss': 0.2963, 'grad_norm': 848027.4375, 'learning_rate': 3.465608465608466e-05, 'epoch': 12.28}
+{'loss': 0.2215, 'grad_norm': 338567.1875, 'learning_rate': 3.458994708994709e-05, 'epoch': 12.33}
+{'loss': 0.2187, 'grad_norm': 288751.15625, 'learning_rate': 3.4523809523809526e-05, 'epoch': 12.38}
+{'loss': 0.2523, 'grad_norm': 367791.875, 'learning_rate': 3.445767195767196e-05, 'epoch': 12.43}
+{'loss': 0.2137, 'grad_norm': 713967.0, 'learning_rate': 3.439153439153439e-05, 'epoch': 12.49}
+{'loss': 0.2634, 'grad_norm': 566784.3125, 'learning_rate': 3.432539682539683e-05, 'epoch': 12.54}
+{'loss': 0.3081, 'grad_norm': 489385.625, 'learning_rate': 3.425925925925926e-05, 'epoch': 12.59}
+{'loss': 0.2139, 'grad_norm': 425821.4375, 'learning_rate': 3.4193121693121694e-05, 'epoch': 12.65}
+{'loss': 0.2137, 'grad_norm': 741314.9375, 'learning_rate': 3.412698412698413e-05, 'epoch': 12.7}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.00533127784729, 'eval_accuracy': 0.6601523683338854, 'eval_runtime': 5.866, 'eval_samples_per_second': 514.665, 'eval_steps_per_second': 8.183, 'epoch': 12.7}
+ 33%|████████████████████████████                                                         | 2500/7560 [23:37<27:48,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.2617, 'grad_norm': 504578.8125, 'learning_rate': 3.406084656084656e-05, 'epoch': 12.75}
+{'loss': 0.2104, 'grad_norm': 508366.875, 'learning_rate': 3.3994708994709e-05, 'epoch': 12.8}
+{'loss': 0.2277, 'grad_norm': 368650.625, 'learning_rate': 3.392857142857143e-05, 'epoch': 12.86}
+{'loss': 0.2515, 'grad_norm': 594420.3125, 'learning_rate': 3.386243386243386e-05, 'epoch': 12.91}
+{'loss': 0.2532, 'grad_norm': 230205.21875, 'learning_rate': 3.3796296296296295e-05, 'epoch': 12.96}
+{'loss': 0.2422, 'grad_norm': 752833.4375, 'learning_rate': 3.3730158730158734e-05, 'epoch': 13.02}
+{'loss': 0.1952, 'grad_norm': 962913.5, 'learning_rate': 3.3664021164021167e-05, 'epoch': 13.07}
+{'loss': 0.159, 'grad_norm': 961112.5, 'learning_rate': 3.35978835978836e-05, 'epoch': 13.12}
+{'loss': 0.1358, 'grad_norm': 449354.53125, 'learning_rate': 3.353174603174603e-05, 'epoch': 13.17}
+{'loss': 0.147, 'grad_norm': 606276.625, 'learning_rate': 3.3465608465608464e-05, 'epoch': 13.23}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.1608489751815796, 'eval_accuracy': 0.665120900960583, 'eval_runtime': 5.8618, 'eval_samples_per_second': 515.032, 'eval_steps_per_second': 8.189, 'epoch': 13.23}
+ 34%|█████████████████████████████▏                                                       | 2600/7560 [24:17<27:20,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.2012, 'grad_norm': 484717.4375, 'learning_rate': 3.33994708994709e-05, 'epoch': 13.28}
+{'loss': 0.1135, 'grad_norm': 1450619.875, 'learning_rate': 3.3333333333333335e-05, 'epoch': 13.33}
+{'loss': 0.1791, 'grad_norm': 1730298.625, 'learning_rate': 3.326719576719577e-05, 'epoch': 13.39}
+{'loss': 0.1499, 'grad_norm': 538593.9375, 'learning_rate': 3.3201058201058206e-05, 'epoch': 13.44}
+{'loss': 0.2106, 'grad_norm': 972042.0625, 'learning_rate': 3.313492063492064e-05, 'epoch': 13.49}
+{'loss': 0.1662, 'grad_norm': 460422.28125, 'learning_rate': 3.306878306878307e-05, 'epoch': 13.54}
+{'loss': 0.1588, 'grad_norm': 318279.375, 'learning_rate': 3.30026455026455e-05, 'epoch': 13.6}
+{'loss': 0.183, 'grad_norm': 978016.3125, 'learning_rate': 3.2936507936507936e-05, 'epoch': 13.65}
+{'loss': 0.1604, 'grad_norm': 600988.125, 'learning_rate': 3.2870370370370375e-05, 'epoch': 13.7}
+{'loss': 0.1452, 'grad_norm': 1194723.625, 'learning_rate': 3.280423280423281e-05, 'epoch': 13.76}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.1994411945343018, 'eval_accuracy': 0.6551838357071879, 'eval_runtime': 5.8699, 'eval_samples_per_second': 514.316, 'eval_steps_per_second': 8.177, 'epoch': 13.76}
+ 36%|██████████████████████████████▎                                                      | 2700/7560 [24:56<26:47,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.2004, 'grad_norm': 685369.9375, 'learning_rate': 3.273809523809524e-05, 'epoch': 13.81}
+{'loss': 0.2012, 'grad_norm': 668912.125, 'learning_rate': 3.267195767195768e-05, 'epoch': 13.86}
+{'loss': 0.17, 'grad_norm': 963686.0, 'learning_rate': 3.2605820105820104e-05, 'epoch': 13.92}
+{'loss': 0.2296, 'grad_norm': 507610.65625, 'learning_rate': 3.253968253968254e-05, 'epoch': 13.97}
+{'loss': 0.1499, 'grad_norm': 458230.90625, 'learning_rate': 3.2473544973544976e-05, 'epoch': 14.02}
+{'loss': 0.1259, 'grad_norm': 557433.875, 'learning_rate': 3.240740740740741e-05, 'epoch': 14.07}
+{'loss': 0.1594, 'grad_norm': 546416.5625, 'learning_rate': 3.234126984126985e-05, 'epoch': 14.13}
+{'loss': 0.1223, 'grad_norm': 565831.125, 'learning_rate': 3.227513227513227e-05, 'epoch': 14.18}
+{'loss': 0.112, 'grad_norm': 611031.125, 'learning_rate': 3.220899470899471e-05, 'epoch': 14.23}
+{'loss': 0.0853, 'grad_norm': 929481.0625, 'learning_rate': 3.2142857142857144e-05, 'epoch': 14.29}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.318312644958496, 'eval_accuracy': 0.6578337197747599, 'eval_runtime': 5.8561, 'eval_samples_per_second': 515.531, 'eval_steps_per_second': 8.197, 'epoch': 14.29}
+ 37%|███████████████████████████████▍                                                     | 2800/7560 [25:35<26:09,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1404, 'grad_norm': 487135.25, 'learning_rate': 3.2076719576719576e-05, 'epoch': 14.34}
+{'loss': 0.1509, 'grad_norm': 506832.46875, 'learning_rate': 3.2010582010582015e-05, 'epoch': 14.39}
+{'loss': 0.13, 'grad_norm': 501336.90625, 'learning_rate': 3.194444444444444e-05, 'epoch': 14.44}
+{'loss': 0.142, 'grad_norm': 1198412.375, 'learning_rate': 3.187830687830688e-05, 'epoch': 14.5}
+{'loss': 0.1207, 'grad_norm': 1048989.5, 'learning_rate': 3.181216931216931e-05, 'epoch': 14.55}
+{'loss': 0.1038, 'grad_norm': 184863.203125, 'learning_rate': 3.1746031746031745e-05, 'epoch': 14.6}
+{'loss': 0.1334, 'grad_norm': 729755.625, 'learning_rate': 3.1679894179894184e-05, 'epoch': 14.66}
+{'loss': 0.1445, 'grad_norm': 507881.15625, 'learning_rate': 3.1613756613756616e-05, 'epoch': 14.71}
+{'loss': 0.1242, 'grad_norm': 349811.84375, 'learning_rate': 3.154761904761905e-05, 'epoch': 14.76}
+{'loss': 0.1576, 'grad_norm': 552997.0, 'learning_rate': 3.148148148148148e-05, 'epoch': 14.81}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.2089247703552246, 'eval_accuracy': 0.6551838357071879, 'eval_runtime': 5.8637, 'eval_samples_per_second': 514.861, 'eval_steps_per_second': 8.186, 'epoch': 14.81}
+ 38%|████████████████████████████████▌                                                    | 2900/7560 [26:14<25:41,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1392, 'grad_norm': 653996.6875, 'learning_rate': 3.141534391534391e-05, 'epoch': 14.87}
+{'loss': 0.146, 'grad_norm': 785402.8125, 'learning_rate': 3.134920634920635e-05, 'epoch': 14.92}
+{'loss': 0.1145, 'grad_norm': 436293.5625, 'learning_rate': 3.1283068783068784e-05, 'epoch': 14.97}
+{'loss': 0.1172, 'grad_norm': 620266.5, 'learning_rate': 3.121693121693122e-05, 'epoch': 15.03}
+{'loss': 0.0801, 'grad_norm': 164101.984375, 'learning_rate': 3.1150793650793656e-05, 'epoch': 15.08}
+{'loss': 0.0881, 'grad_norm': 730537.6875, 'learning_rate': 3.108465608465609e-05, 'epoch': 15.13}
+{'loss': 0.0842, 'grad_norm': 1295608.75, 'learning_rate': 3.101851851851852e-05, 'epoch': 15.19}
+{'loss': 0.0995, 'grad_norm': 475082.25, 'learning_rate': 3.095238095238095e-05, 'epoch': 15.24}
+{'loss': 0.1098, 'grad_norm': 1590909.375, 'learning_rate': 3.0886243386243385e-05, 'epoch': 15.29}
+{'loss': 0.1941, 'grad_norm': 1213764.25, 'learning_rate': 3.0820105820105824e-05, 'epoch': 15.34}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.3932108879089355, 'eval_accuracy': 0.6386220602848626, 'eval_runtime': 5.856, 'eval_samples_per_second': 515.54, 'eval_steps_per_second': 8.197, 'epoch': 15.34}
+ 40%|█████████████████████████████████▋                                                   | 3000/7560 [26:53<25:02,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1691, 'grad_norm': 1151547.375, 'learning_rate': 3.075396825396826e-05, 'epoch': 15.4}
+{'loss': 0.1959, 'grad_norm': 607419.6875, 'learning_rate': 3.068783068783069e-05, 'epoch': 15.45}
+{'loss': 0.1004, 'grad_norm': 1065549.625, 'learning_rate': 3.062169312169312e-05, 'epoch': 15.5}
+{'loss': 0.1017, 'grad_norm': 507912.125, 'learning_rate': 3.055555555555556e-05, 'epoch': 15.56}
+{'loss': 0.104, 'grad_norm': 143117.4375, 'learning_rate': 3.048941798941799e-05, 'epoch': 15.61}
+{'loss': 0.1002, 'grad_norm': 211682.015625, 'learning_rate': 3.0423280423280425e-05, 'epoch': 15.66}
+{'loss': 0.1291, 'grad_norm': 596732.0625, 'learning_rate': 3.0357142857142857e-05, 'epoch': 15.71}
+{'loss': 0.1406, 'grad_norm': 594829.625, 'learning_rate': 3.0291005291005293e-05, 'epoch': 15.77}
+{'loss': 0.167, 'grad_norm': 1029801.875, 'learning_rate': 3.022486772486773e-05, 'epoch': 15.82}
+{'loss': 0.1672, 'grad_norm': 1229347.25, 'learning_rate': 3.0158730158730158e-05, 'epoch': 15.87}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.211174488067627, 'eval_accuracy': 0.6611460748592249, 'eval_runtime': 5.8576, 'eval_samples_per_second': 515.398, 'eval_steps_per_second': 8.194, 'epoch': 15.87}
+ 41%|██████████████████████████████████▊                                                  | 3100/7560 [27:32<24:21,  3.05it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1086, 'grad_norm': 370485.125, 'learning_rate': 3.0092592592592593e-05, 'epoch': 15.93}
+{'loss': 0.1295, 'grad_norm': 575422.375, 'learning_rate': 3.002645502645503e-05, 'epoch': 15.98}
+{'loss': 0.0965, 'grad_norm': 188901.265625, 'learning_rate': 2.996031746031746e-05, 'epoch': 16.03}
+{'loss': 0.0651, 'grad_norm': 1526546.125, 'learning_rate': 2.9894179894179897e-05, 'epoch': 16.08}
+{'loss': 0.0939, 'grad_norm': 1266625.5, 'learning_rate': 2.9828042328042326e-05, 'epoch': 16.14}
+{'loss': 0.0943, 'grad_norm': 327417.84375, 'learning_rate': 2.9761904761904762e-05, 'epoch': 16.19}
+{'loss': 0.0913, 'grad_norm': 234784.625, 'learning_rate': 2.9695767195767198e-05, 'epoch': 16.24}
+{'loss': 0.0633, 'grad_norm': 1300738.625, 'learning_rate': 2.962962962962963e-05, 'epoch': 16.3}
+{'loss': 0.0731, 'grad_norm': 237312.828125, 'learning_rate': 2.9563492063492066e-05, 'epoch': 16.35}
+{'loss': 0.1202, 'grad_norm': 1456220.875, 'learning_rate': 2.94973544973545e-05, 'epoch': 16.4}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.581870436668396, 'eval_accuracy': 0.6568400132494203, 'eval_runtime': 5.7499, 'eval_samples_per_second': 525.051, 'eval_steps_per_second': 8.348, 'epoch': 16.4}
+ 42%|███████████████████████████████████▉                                                 | 3200/7560 [28:10<24:04,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0412, 'grad_norm': 118818.46875, 'learning_rate': 2.943121693121693e-05, 'epoch': 16.46}
+{'loss': 0.1289, 'grad_norm': 34432.73046875, 'learning_rate': 2.9365079365079366e-05, 'epoch': 16.51}
+{'loss': 0.1154, 'grad_norm': 1118135.5, 'learning_rate': 2.92989417989418e-05, 'epoch': 16.56}
+{'loss': 0.0916, 'grad_norm': 464163.53125, 'learning_rate': 2.9232804232804234e-05, 'epoch': 16.61}
+{'loss': 0.0648, 'grad_norm': 37210.078125, 'learning_rate': 2.916666666666667e-05, 'epoch': 16.67}
+{'loss': 0.102, 'grad_norm': 1561756.75, 'learning_rate': 2.91005291005291e-05, 'epoch': 16.72}
+{'loss': 0.1207, 'grad_norm': 586810.9375, 'learning_rate': 2.9034391534391538e-05, 'epoch': 16.77}
+{'loss': 0.102, 'grad_norm': 762165.0, 'learning_rate': 2.8968253968253974e-05, 'epoch': 16.83}
+{'loss': 0.095, 'grad_norm': 559346.0625, 'learning_rate': 2.8902116402116402e-05, 'epoch': 16.88}
+{'loss': 0.0887, 'grad_norm': 1095007.375, 'learning_rate': 2.8835978835978838e-05, 'epoch': 16.93}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.5156158208847046, 'eval_accuracy': 0.6538588936734018, 'eval_runtime': 5.6615, 'eval_samples_per_second': 533.252, 'eval_steps_per_second': 8.478, 'epoch': 16.93}
+ 44%|█████████████████████████████████████                                                | 3300/7560 [28:49<23:33,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1068, 'grad_norm': 1493013.625, 'learning_rate': 2.876984126984127e-05, 'epoch': 16.98}
+{'loss': 0.1133, 'grad_norm': 377755.6875, 'learning_rate': 2.8703703703703706e-05, 'epoch': 17.04}
+{'loss': 0.0791, 'grad_norm': 1396474.5, 'learning_rate': 2.8637566137566142e-05, 'epoch': 17.09}
+{'loss': 0.0671, 'grad_norm': 41771.9765625, 'learning_rate': 2.857142857142857e-05, 'epoch': 17.14}
+{'loss': 0.062, 'grad_norm': 76655.03125, 'learning_rate': 2.8505291005291007e-05, 'epoch': 17.2}
+{'loss': 0.07, 'grad_norm': 1503422.25, 'learning_rate': 2.8439153439153442e-05, 'epoch': 17.25}
+{'loss': 0.0999, 'grad_norm': 1792514.125, 'learning_rate': 2.8373015873015875e-05, 'epoch': 17.3}
+{'loss': 0.1299, 'grad_norm': 94355.484375, 'learning_rate': 2.830687830687831e-05, 'epoch': 17.35}
+{'loss': 0.1215, 'grad_norm': 279345.375, 'learning_rate': 2.824074074074074e-05, 'epoch': 17.41}
+{'loss': 0.0825, 'grad_norm': 19095.767578125, 'learning_rate': 2.8174603174603175e-05, 'epoch': 17.46}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.359742522239685, 'eval_accuracy': 0.6624710168930109, 'eval_runtime': 5.8691, 'eval_samples_per_second': 514.393, 'eval_steps_per_second': 8.178, 'epoch': 17.46}
+ 45%|██████████████████████████████████████▏                                              | 3400/7560 [29:28<23:02,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0902, 'grad_norm': 771170.1875, 'learning_rate': 2.810846560846561e-05, 'epoch': 17.51}
+{'loss': 0.0802, 'grad_norm': 55543.34765625, 'learning_rate': 2.8042328042328043e-05, 'epoch': 17.57}
+{'loss': 0.0878, 'grad_norm': 1584316.0, 'learning_rate': 2.797619047619048e-05, 'epoch': 17.62}
+{'loss': 0.0685, 'grad_norm': 11867.2900390625, 'learning_rate': 2.7910052910052914e-05, 'epoch': 17.67}
+{'loss': 0.1002, 'grad_norm': 1801211.75, 'learning_rate': 2.7843915343915343e-05, 'epoch': 17.72}
+{'loss': 0.0844, 'grad_norm': 51402.98828125, 'learning_rate': 2.777777777777778e-05, 'epoch': 17.78}
+{'loss': 0.0711, 'grad_norm': 1310026.75, 'learning_rate': 2.771164021164021e-05, 'epoch': 17.83}
+{'loss': 0.0964, 'grad_norm': 17631.330078125, 'learning_rate': 2.7645502645502647e-05, 'epoch': 17.88}
+{'loss': 0.0459, 'grad_norm': 72077.3671875, 'learning_rate': 2.7579365079365083e-05, 'epoch': 17.94}
+{'loss': 0.1174, 'grad_norm': 449880.09375, 'learning_rate': 2.7513227513227512e-05, 'epoch': 17.99}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.902132511138916, 'eval_accuracy': 0.632991056641272, 'eval_runtime': 5.8729, 'eval_samples_per_second': 514.059, 'eval_steps_per_second': 8.173, 'epoch': 17.99}
+ 46%|███████████████████████████████████████▎                                             | 3500/7560 [30:07<22:25,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.094, 'grad_norm': 1760915.125, 'learning_rate': 2.7447089947089948e-05, 'epoch': 18.04}
+{'loss': 0.0743, 'grad_norm': 737987.0625, 'learning_rate': 2.7380952380952383e-05, 'epoch': 18.1}
+{'loss': 0.0651, 'grad_norm': 35457.0859375, 'learning_rate': 2.7314814814814816e-05, 'epoch': 18.15}
+{'loss': 0.0985, 'grad_norm': 650938.0625, 'learning_rate': 2.724867724867725e-05, 'epoch': 18.2}
+{'loss': 0.0865, 'grad_norm': 204422.109375, 'learning_rate': 2.718253968253968e-05, 'epoch': 18.25}
+{'loss': 0.0649, 'grad_norm': 1125469.5, 'learning_rate': 2.7116402116402116e-05, 'epoch': 18.31}
+{'loss': 0.0831, 'grad_norm': 55822.73046875, 'learning_rate': 2.7050264550264555e-05, 'epoch': 18.36}
+{'loss': 0.0297, 'grad_norm': 27647.376953125, 'learning_rate': 2.6984126984126984e-05, 'epoch': 18.41}
+{'loss': 0.076, 'grad_norm': 480569.90625, 'learning_rate': 2.691798941798942e-05, 'epoch': 18.47}
+{'loss': 0.1436, 'grad_norm': 2374858.75, 'learning_rate': 2.6851851851851855e-05, 'epoch': 18.52}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.9670649766921997, 'eval_accuracy': 0.6707519046041736, 'eval_runtime': 5.8739, 'eval_samples_per_second': 513.971, 'eval_steps_per_second': 8.172, 'epoch': 18.52}
+ 48%|████████████████████████████████████████▍                                            | 3600/7560 [30:47<21:44,  3.04it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.2232, 'grad_norm': 989751.4375, 'learning_rate': 2.6785714285714288e-05, 'epoch': 18.57}
+{'loss': 0.0793, 'grad_norm': 9797.2861328125, 'learning_rate': 2.6719576719576723e-05, 'epoch': 18.62}
+{'loss': 0.1542, 'grad_norm': 1619978.0, 'learning_rate': 2.6653439153439152e-05, 'epoch': 18.68}
+{'loss': 0.1289, 'grad_norm': 3812318.5, 'learning_rate': 2.6587301587301588e-05, 'epoch': 18.73}
+{'loss': 0.1109, 'grad_norm': 306020.09375, 'learning_rate': 2.6521164021164024e-05, 'epoch': 18.78}
+{'loss': 0.1207, 'grad_norm': 1246530.0, 'learning_rate': 2.6455026455026456e-05, 'epoch': 18.84}
+{'loss': 0.0818, 'grad_norm': 73158.7109375, 'learning_rate': 2.6388888888888892e-05, 'epoch': 18.89}
+{'loss': 0.0918, 'grad_norm': 6078.84375, 'learning_rate': 2.6322751322751328e-05, 'epoch': 18.94}
+{'loss': 0.1254, 'grad_norm': 204742.53125, 'learning_rate': 2.6256613756613757e-05, 'epoch': 18.99}
+{'loss': 0.0524, 'grad_norm': 106791.78125, 'learning_rate': 2.6190476190476192e-05, 'epoch': 19.05}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.7512301206588745, 'eval_accuracy': 0.6528651871480623, 'eval_runtime': 5.872, 'eval_samples_per_second': 514.131, 'eval_steps_per_second': 8.174, 'epoch': 19.05}
+ 49%|█████████████████████████████████████████▌                                           | 3700/7560 [31:26<21:18,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.094, 'grad_norm': 109135.015625, 'learning_rate': 2.6124338624338625e-05, 'epoch': 19.1}
+{'loss': 0.103, 'grad_norm': 48446.2109375, 'learning_rate': 2.605820105820106e-05, 'epoch': 19.15}
+{'loss': 0.0385, 'grad_norm': 846271.0, 'learning_rate': 2.5992063492063496e-05, 'epoch': 19.21}
+{'loss': 0.0674, 'grad_norm': 2511502.0, 'learning_rate': 2.5925925925925925e-05, 'epoch': 19.26}
+{'loss': 0.0663, 'grad_norm': 6146.15087890625, 'learning_rate': 2.585978835978836e-05, 'epoch': 19.31}
+{'loss': 0.064, 'grad_norm': 3010737.0, 'learning_rate': 2.5793650793650796e-05, 'epoch': 19.37}
+{'loss': 0.0873, 'grad_norm': 1373447.375, 'learning_rate': 2.572751322751323e-05, 'epoch': 19.42}
+{'loss': 0.1037, 'grad_norm': 1622624.375, 'learning_rate': 2.5661375661375664e-05, 'epoch': 19.47}
+{'loss': 0.0808, 'grad_norm': 1978387.625, 'learning_rate': 2.5595238095238093e-05, 'epoch': 19.52}
+{'loss': 0.124, 'grad_norm': 25849.865234375, 'learning_rate': 2.552910052910053e-05, 'epoch': 19.58}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.9796682596206665, 'eval_accuracy': 0.6568400132494203, 'eval_runtime': 5.8704, 'eval_samples_per_second': 514.272, 'eval_steps_per_second': 8.177, 'epoch': 19.58}
+ 50%|██████████████████████████████████████████▋                                          | 3800/7560 [32:05<20:43,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1121, 'grad_norm': 193871.40625, 'learning_rate': 2.5462962962962965e-05, 'epoch': 19.63}
+{'loss': 0.0839, 'grad_norm': 6203.21875, 'learning_rate': 2.5396825396825397e-05, 'epoch': 19.68}
+{'loss': 0.0962, 'grad_norm': 623484.0, 'learning_rate': 2.5330687830687833e-05, 'epoch': 19.74}
+{'loss': 0.0971, 'grad_norm': 61660.1953125, 'learning_rate': 2.526455026455027e-05, 'epoch': 19.79}
+{'loss': 0.0734, 'grad_norm': 178555.609375, 'learning_rate': 2.5198412698412697e-05, 'epoch': 19.84}
+{'loss': 0.0646, 'grad_norm': 114309.25, 'learning_rate': 2.5132275132275137e-05, 'epoch': 19.89}
+{'loss': 0.1057, 'grad_norm': 785344.1875, 'learning_rate': 2.5066137566137565e-05, 'epoch': 19.95}
+{'loss': 0.0931, 'grad_norm': 928365.6875, 'learning_rate': 2.5e-05, 'epoch': 20.0}
+{'loss': 0.0418, 'grad_norm': 477296.3125, 'learning_rate': 2.4933862433862434e-05, 'epoch': 20.05}
+{'loss': 0.0626, 'grad_norm': 71606.09375, 'learning_rate': 2.4867724867724866e-05, 'epoch': 20.11}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.8521233797073364, 'eval_accuracy': 0.6641271944352435, 'eval_runtime': 5.8834, 'eval_samples_per_second': 513.143, 'eval_steps_per_second': 8.159, 'epoch': 20.11}
+ 52%|███████████████████████████████████████████▊                                         | 3900/7560 [32:44<20:08,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0427, 'grad_norm': 2189.475830078125, 'learning_rate': 2.4801587301587305e-05, 'epoch': 20.16}
+{'loss': 0.1413, 'grad_norm': 9904.5029296875, 'learning_rate': 2.4735449735449737e-05, 'epoch': 20.21}
+{'loss': 0.0944, 'grad_norm': 346724.21875, 'learning_rate': 2.466931216931217e-05, 'epoch': 20.26}
+{'loss': 0.1162, 'grad_norm': 1936902.375, 'learning_rate': 2.4603174603174602e-05, 'epoch': 20.32}
+{'loss': 0.07, 'grad_norm': 3714143.75, 'learning_rate': 2.4537037037037038e-05, 'epoch': 20.37}
+{'loss': 0.0627, 'grad_norm': 1179870.875, 'learning_rate': 2.4470899470899473e-05, 'epoch': 20.42}
+{'loss': 0.1153, 'grad_norm': 265369.4375, 'learning_rate': 2.4404761904761906e-05, 'epoch': 20.48}
+{'loss': 0.0911, 'grad_norm': 153619.953125, 'learning_rate': 2.4338624338624338e-05, 'epoch': 20.53}
+{'loss': 0.1113, 'grad_norm': 159957.96875, 'learning_rate': 2.4272486772486774e-05, 'epoch': 20.58}
+{'loss': 0.1256, 'grad_norm': 2495512.5, 'learning_rate': 2.4206349206349206e-05, 'epoch': 20.63}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 1.865074872970581, 'eval_accuracy': 0.6614773103676714, 'eval_runtime': 5.8656, 'eval_samples_per_second': 514.698, 'eval_steps_per_second': 8.183, 'epoch': 20.63}
+ 53%|████████████████████████████████████████████▉                                        | 4000/7560 [33:22<19:39,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0889, 'grad_norm': 64639.9453125, 'learning_rate': 2.4140211640211642e-05, 'epoch': 20.69}
+{'loss': 0.0978, 'grad_norm': 109825.0703125, 'learning_rate': 2.4074074074074074e-05, 'epoch': 20.74}
+{'loss': 0.0783, 'grad_norm': 121642.9921875, 'learning_rate': 2.400793650793651e-05, 'epoch': 20.79}
+{'loss': 0.1363, 'grad_norm': 1402455.625, 'learning_rate': 2.3941798941798942e-05, 'epoch': 20.85}
+{'loss': 0.0628, 'grad_norm': 66958.046875, 'learning_rate': 2.3875661375661378e-05, 'epoch': 20.9}
+{'loss': 0.0933, 'grad_norm': 356031.71875, 'learning_rate': 2.380952380952381e-05, 'epoch': 20.95}
+{'loss': 0.1001, 'grad_norm': 1283434.5, 'learning_rate': 2.3743386243386246e-05, 'epoch': 21.01}
+{'loss': 0.0338, 'grad_norm': 1158613.875, 'learning_rate': 2.3677248677248678e-05, 'epoch': 21.06}
+{'loss': 0.0426, 'grad_norm': 313585.1875, 'learning_rate': 2.361111111111111e-05, 'epoch': 21.11}
+{'loss': 0.1217, 'grad_norm': 20388.84765625, 'learning_rate': 2.3544973544973546e-05, 'epoch': 21.16}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.0019352436065674, 'eval_accuracy': 0.6618085458761179, 'eval_runtime': 5.8669, 'eval_samples_per_second': 514.582, 'eval_steps_per_second': 8.181, 'epoch': 21.16}
+ 54%|██████████████████████████████████████████████                                       | 4100/7560 [34:02<19:07,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.083, 'grad_norm': 104709.859375, 'learning_rate': 2.3478835978835982e-05, 'epoch': 21.22}
+{'loss': 0.0542, 'grad_norm': 5384.55517578125, 'learning_rate': 2.3412698412698414e-05, 'epoch': 21.27}
+{'loss': 0.1027, 'grad_norm': 150251.734375, 'learning_rate': 2.3346560846560847e-05, 'epoch': 21.32}
+{'loss': 0.0946, 'grad_norm': 210891.78125, 'learning_rate': 2.328042328042328e-05, 'epoch': 21.38}
+{'loss': 0.0663, 'grad_norm': 81675.4296875, 'learning_rate': 2.3214285714285715e-05, 'epoch': 21.43}
+{'loss': 0.0985, 'grad_norm': 58752.05859375, 'learning_rate': 2.314814814814815e-05, 'epoch': 21.48}
+{'loss': 0.1073, 'grad_norm': 3243393.5, 'learning_rate': 2.3082010582010583e-05, 'epoch': 21.53}
+{'loss': 0.1718, 'grad_norm': 19919.380859375, 'learning_rate': 2.3015873015873015e-05, 'epoch': 21.59}
+{'loss': 0.1151, 'grad_norm': 124629.4453125, 'learning_rate': 2.294973544973545e-05, 'epoch': 21.64}
+{'loss': 0.0631, 'grad_norm': 166067.625, 'learning_rate': 2.2883597883597886e-05, 'epoch': 21.69}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.2087738513946533, 'eval_accuracy': 0.6611460748592249, 'eval_runtime': 5.8648, 'eval_samples_per_second': 514.767, 'eval_steps_per_second': 8.184, 'epoch': 21.69}
+ 56%|███████████████████████████████████████████████▏                                     | 4200/7560 [34:41<18:28,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0631, 'grad_norm': 87137.9453125, 'learning_rate': 2.281746031746032e-05, 'epoch': 21.75}
+{'loss': 0.0439, 'grad_norm': 959.9186401367188, 'learning_rate': 2.275132275132275e-05, 'epoch': 21.8}
+{'loss': 0.0639, 'grad_norm': 2577980.25, 'learning_rate': 2.2685185185185187e-05, 'epoch': 21.85}
+{'loss': 0.091, 'grad_norm': 21245.61328125, 'learning_rate': 2.261904761904762e-05, 'epoch': 21.9}
+{'loss': 0.0934, 'grad_norm': 1961.8466796875, 'learning_rate': 2.2552910052910055e-05, 'epoch': 21.96}
+{'loss': 0.1019, 'grad_norm': 42714.8515625, 'learning_rate': 2.2486772486772487e-05, 'epoch': 22.01}
+{'loss': 0.043, 'grad_norm': 175707.03125, 'learning_rate': 2.2420634920634923e-05, 'epoch': 22.06}
+{'loss': 0.0764, 'grad_norm': 83984.4765625, 'learning_rate': 2.2354497354497355e-05, 'epoch': 22.12}
+{'loss': 0.1092, 'grad_norm': 6208377.0, 'learning_rate': 2.2288359788359788e-05, 'epoch': 22.17}
+{'loss': 0.0659, 'grad_norm': 1238895.0, 'learning_rate': 2.2222222222222223e-05, 'epoch': 22.22}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.2472445964813232, 'eval_accuracy': 0.6641271944352435, 'eval_runtime': 5.8598, 'eval_samples_per_second': 515.201, 'eval_steps_per_second': 8.191, 'epoch': 22.22}
+ 57%|████████████████████████████████████████████████▎                                    | 4300/7560 [35:20<17:52,  3.04it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0496, 'grad_norm': 22564.919921875, 'learning_rate': 2.215608465608466e-05, 'epoch': 22.28}
+{'loss': 0.1106, 'grad_norm': 335690.09375, 'learning_rate': 2.208994708994709e-05, 'epoch': 22.33}
+{'loss': 0.091, 'grad_norm': 306456.75, 'learning_rate': 2.2023809523809524e-05, 'epoch': 22.38}
+{'loss': 0.0962, 'grad_norm': 40719.7421875, 'learning_rate': 2.1957671957671956e-05, 'epoch': 22.43}
+{'loss': 0.0572, 'grad_norm': 1375.3839111328125, 'learning_rate': 2.1891534391534395e-05, 'epoch': 22.49}
+{'loss': 0.0757, 'grad_norm': 246553.515625, 'learning_rate': 2.1825396825396827e-05, 'epoch': 22.54}
+{'loss': 0.0784, 'grad_norm': 704070.9375, 'learning_rate': 2.175925925925926e-05, 'epoch': 22.59}
+{'loss': 0.1515, 'grad_norm': 151291.546875, 'learning_rate': 2.1693121693121692e-05, 'epoch': 22.65}
+{'loss': 0.0692, 'grad_norm': 897.4413452148438, 'learning_rate': 2.1626984126984128e-05, 'epoch': 22.7}
+{'loss': 0.0304, 'grad_norm': 2217591.5, 'learning_rate': 2.1560846560846563e-05, 'epoch': 22.75}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.9004883766174316, 'eval_accuracy': 0.6512090096058297, 'eval_runtime': 5.8504, 'eval_samples_per_second': 516.032, 'eval_steps_per_second': 8.205, 'epoch': 22.75}
+ 58%|█████████████████████████████████████████████████▍                                   | 4400/7560 [35:59<17:13,  3.06it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1503, 'grad_norm': 5954313.0, 'learning_rate': 2.1494708994708996e-05, 'epoch': 22.8}
+{'loss': 0.0541, 'grad_norm': 39213.9453125, 'learning_rate': 2.1428571428571428e-05, 'epoch': 22.86}
+{'loss': 0.039, 'grad_norm': 6259.63818359375, 'learning_rate': 2.1362433862433864e-05, 'epoch': 22.91}
+{'loss': 0.0779, 'grad_norm': 32978.859375, 'learning_rate': 2.1296296296296296e-05, 'epoch': 22.96}
+{'loss': 0.0981, 'grad_norm': 114413.8359375, 'learning_rate': 2.1230158730158732e-05, 'epoch': 23.02}
+{'loss': 0.0601, 'grad_norm': 69355.328125, 'learning_rate': 2.1164021164021164e-05, 'epoch': 23.07}
+{'loss': 0.0836, 'grad_norm': 1337287.625, 'learning_rate': 2.10978835978836e-05, 'epoch': 23.12}
+{'loss': 0.1146, 'grad_norm': 1384.0721435546875, 'learning_rate': 2.1031746031746032e-05, 'epoch': 23.17}
+{'loss': 0.0967, 'grad_norm': 34332.10546875, 'learning_rate': 2.0965608465608465e-05, 'epoch': 23.23}
+{'loss': 0.1547, 'grad_norm': 690114.5625, 'learning_rate': 2.08994708994709e-05, 'epoch': 23.28}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 3.0042977333068848, 'eval_accuracy': 0.6565087777409738, 'eval_runtime': 5.7128, 'eval_samples_per_second': 528.464, 'eval_steps_per_second': 8.402, 'epoch': 23.28}
+ 60%|██████████████████████████████████████████████████▌                                  | 4500/7560 [36:37<17:00,  3.00it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.087, 'grad_norm': 8492464.0, 'learning_rate': 2.0833333333333336e-05, 'epoch': 23.33}
+{'loss': 0.1311, 'grad_norm': 4239828.0, 'learning_rate': 2.076719576719577e-05, 'epoch': 23.39}
+{'loss': 0.1249, 'grad_norm': 1297581.0, 'learning_rate': 2.07010582010582e-05, 'epoch': 23.44}
+{'loss': 0.1227, 'grad_norm': 1443542.75, 'learning_rate': 2.0634920634920636e-05, 'epoch': 23.49}
+{'loss': 0.1193, 'grad_norm': 893948.0625, 'learning_rate': 2.0568783068783072e-05, 'epoch': 23.54}
+{'loss': 0.1178, 'grad_norm': 2061233.0, 'learning_rate': 2.0502645502645504e-05, 'epoch': 23.6}
+{'loss': 0.1176, 'grad_norm': 517526.0625, 'learning_rate': 2.0436507936507937e-05, 'epoch': 23.65}
+{'loss': 0.0866, 'grad_norm': 607085.4375, 'learning_rate': 2.037037037037037e-05, 'epoch': 23.7}
+{'loss': 0.0681, 'grad_norm': 59902.68359375, 'learning_rate': 2.0304232804232805e-05, 'epoch': 23.76}
+{'loss': 0.0502, 'grad_norm': 1969420.25, 'learning_rate': 2.023809523809524e-05, 'epoch': 23.81}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.314678907394409, 'eval_accuracy': 0.6541901291818483, 'eval_runtime': 5.8555, 'eval_samples_per_second': 515.587, 'eval_steps_per_second': 8.197, 'epoch': 23.81}
+ 61%|███████████████████████████████████████████████████▋                                 | 4600/7560 [37:17<16:23,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0499, 'grad_norm': 1810031.5, 'learning_rate': 2.0171957671957673e-05, 'epoch': 23.86}
+{'loss': 0.0925, 'grad_norm': 186708.765625, 'learning_rate': 2.0105820105820105e-05, 'epoch': 23.92}
+{'loss': 0.0407, 'grad_norm': 107079.1171875, 'learning_rate': 2.003968253968254e-05, 'epoch': 23.97}
+{'loss': 0.1032, 'grad_norm': 282634.40625, 'learning_rate': 1.9973544973544973e-05, 'epoch': 24.02}
+{'loss': 0.0753, 'grad_norm': 247019.109375, 'learning_rate': 1.990740740740741e-05, 'epoch': 24.07}
+{'loss': 0.1512, 'grad_norm': 119632.3515625, 'learning_rate': 1.984126984126984e-05, 'epoch': 24.13}
+{'loss': 0.0604, 'grad_norm': 111179.265625, 'learning_rate': 1.9775132275132277e-05, 'epoch': 24.18}
+{'loss': 0.0621, 'grad_norm': 108901.3203125, 'learning_rate': 1.970899470899471e-05, 'epoch': 24.23}
+{'loss': 0.0988, 'grad_norm': 668140.0625, 'learning_rate': 1.9642857142857145e-05, 'epoch': 24.29}
+{'loss': 0.0268, 'grad_norm': 6586.35595703125, 'learning_rate': 1.9576719576719577e-05, 'epoch': 24.34}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.230494260787964, 'eval_accuracy': 0.6535276581649553, 'eval_runtime': 5.8904, 'eval_samples_per_second': 512.531, 'eval_steps_per_second': 8.149, 'epoch': 24.34}
+ 62%|████████████████████████████████████████████████████▊                                | 4700/7560 [37:56<15:50,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0627, 'grad_norm': 624224.3125, 'learning_rate': 1.9510582010582013e-05, 'epoch': 24.39}
+{'loss': 0.0482, 'grad_norm': 1365.7144775390625, 'learning_rate': 1.9444444444444445e-05, 'epoch': 24.44}
+{'loss': 0.0788, 'grad_norm': 824382.9375, 'learning_rate': 1.9378306878306878e-05, 'epoch': 24.5}
+{'loss': 0.0414, 'grad_norm': 705290.6875, 'learning_rate': 1.9312169312169313e-05, 'epoch': 24.55}
+{'loss': 0.0551, 'grad_norm': 213731.5, 'learning_rate': 1.924603174603175e-05, 'epoch': 24.6}
+{'loss': 0.1053, 'grad_norm': 3198406.25, 'learning_rate': 1.917989417989418e-05, 'epoch': 24.66}
+{'loss': 0.0511, 'grad_norm': 12878.802734375, 'learning_rate': 1.9113756613756614e-05, 'epoch': 24.71}
+{'loss': 0.0349, 'grad_norm': 21291.265625, 'learning_rate': 1.9047619047619046e-05, 'epoch': 24.76}
+{'loss': 0.0524, 'grad_norm': 371.6860046386719, 'learning_rate': 1.8981481481481482e-05, 'epoch': 24.81}
+{'loss': 0.1078, 'grad_norm': 2623577.25, 'learning_rate': 1.8915343915343918e-05, 'epoch': 24.87}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.5923264026641846, 'eval_accuracy': 0.6674395495197085, 'eval_runtime': 5.8731, 'eval_samples_per_second': 514.04, 'eval_steps_per_second': 8.173, 'epoch': 24.87}
+ 63%|█████████████████████████████████████████████████████▉                               | 4800/7560 [38:35<15:14,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0878, 'grad_norm': 2449219.0, 'learning_rate': 1.884920634920635e-05, 'epoch': 24.92}
+{'loss': 0.0203, 'grad_norm': 1459.9796142578125, 'learning_rate': 1.8783068783068782e-05, 'epoch': 24.97}
+{'loss': 0.0522, 'grad_norm': 3961.904541015625, 'learning_rate': 1.8716931216931218e-05, 'epoch': 25.03}
+{'loss': 0.034, 'grad_norm': 131894.53125, 'learning_rate': 1.8650793650793654e-05, 'epoch': 25.08}
+{'loss': 0.0484, 'grad_norm': 40404.1328125, 'learning_rate': 1.8584656084656086e-05, 'epoch': 25.13}
+{'loss': 0.0581, 'grad_norm': 143742.390625, 'learning_rate': 1.8518518518518518e-05, 'epoch': 25.19}
+{'loss': 0.0803, 'grad_norm': 2014172.0, 'learning_rate': 1.8452380952380954e-05, 'epoch': 25.24}
+{'loss': 0.1064, 'grad_norm': 196021.5625, 'learning_rate': 1.8386243386243386e-05, 'epoch': 25.29}
+{'loss': 0.0746, 'grad_norm': 351267.90625, 'learning_rate': 1.8320105820105822e-05, 'epoch': 25.34}
+{'loss': 0.0898, 'grad_norm': 94046.6953125, 'learning_rate': 1.8253968253968254e-05, 'epoch': 25.4}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 2.5570566654205322, 'eval_accuracy': 0.6604836038423318, 'eval_runtime': 5.878, 'eval_samples_per_second': 513.612, 'eval_steps_per_second': 8.166, 'epoch': 25.4}
+ 65%|███████████████████████████████████████████████████████                              | 4900/7560 [39:14<14:43,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0226, 'grad_norm': 75599.9609375, 'learning_rate': 1.818783068783069e-05, 'epoch': 25.45}
+{'loss': 0.1101, 'grad_norm': 373011.03125, 'learning_rate': 1.8121693121693122e-05, 'epoch': 25.5}
+{'loss': 0.1111, 'grad_norm': 476214.125, 'learning_rate': 1.8055555555555555e-05, 'epoch': 25.56}
+{'loss': 0.0645, 'grad_norm': 308.28216552734375, 'learning_rate': 1.798941798941799e-05, 'epoch': 25.61}
+{'loss': 0.0836, 'grad_norm': 305.3329772949219, 'learning_rate': 1.7923280423280426e-05, 'epoch': 25.66}
+{'loss': 0.0136, 'grad_norm': 127.89707946777344, 'learning_rate': 1.785714285714286e-05, 'epoch': 25.71}
+{'loss': 0.0521, 'grad_norm': 7755817.5, 'learning_rate': 1.779100529100529e-05, 'epoch': 25.77}
+{'loss': 0.1167, 'grad_norm': 3437491.75, 'learning_rate': 1.7724867724867723e-05, 'epoch': 25.82}
+{'loss': 0.0819, 'grad_norm': 105540.3671875, 'learning_rate': 1.7658730158730162e-05, 'epoch': 25.87}
+{'loss': 0.0909, 'grad_norm': 3498409.75, 'learning_rate': 1.7592592592592595e-05, 'epoch': 25.93}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 3.1890878677368164, 'eval_accuracy': 0.6604836038423318, 'eval_runtime': 5.872, 'eval_samples_per_second': 514.134, 'eval_steps_per_second': 8.174, 'epoch': 25.93}
+ 66%|████████████████████████████████████████████████████████▏                            | 5000/7560 [39:53<14:06,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1633, 'grad_norm': 46829.38671875, 'learning_rate': 1.7526455026455027e-05, 'epoch': 25.98}
+{'loss': 0.0519, 'grad_norm': 483200.90625, 'learning_rate': 1.746031746031746e-05, 'epoch': 26.03}
+{'loss': 0.1097, 'grad_norm': 66216.796875, 'learning_rate': 1.7394179894179895e-05, 'epoch': 26.08}
+{'loss': 0.0361, 'grad_norm': 6496279.0, 'learning_rate': 1.732804232804233e-05, 'epoch': 26.14}
+{'loss': 0.0641, 'grad_norm': 60136.671875, 'learning_rate': 1.7261904761904763e-05, 'epoch': 26.19}
+{'loss': 0.0736, 'grad_norm': 172515.96875, 'learning_rate': 1.7195767195767195e-05, 'epoch': 26.24}
+{'loss': 0.0533, 'grad_norm': 1898.354248046875, 'learning_rate': 1.712962962962963e-05, 'epoch': 26.3}
+{'loss': 0.017, 'grad_norm': 176318.03125, 'learning_rate': 1.7063492063492063e-05, 'epoch': 26.35}
+{'loss': 0.1054, 'grad_norm': 94399.203125, 'learning_rate': 1.69973544973545e-05, 'epoch': 26.4}
+{'loss': 0.1045, 'grad_norm': 676689.9375, 'learning_rate': 1.693121693121693e-05, 'epoch': 26.46}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 3.3196158409118652, 'eval_accuracy': 0.6538588936734018, 'eval_runtime': 5.871, 'eval_samples_per_second': 514.223, 'eval_steps_per_second': 8.176, 'epoch': 26.46}
+ 67%|█████████████████████████████████████████████████████████▎                           | 5100/7560 [40:33<13:36,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1459, 'grad_norm': 51143.890625, 'learning_rate': 1.6865079365079367e-05, 'epoch': 26.51}
+{'loss': 0.0825, 'grad_norm': 47534.43359375, 'learning_rate': 1.67989417989418e-05, 'epoch': 26.56}
+{'loss': 0.0501, 'grad_norm': 28057.658203125, 'learning_rate': 1.6732804232804232e-05, 'epoch': 26.61}
+{'loss': 0.0468, 'grad_norm': 27191.447265625, 'learning_rate': 1.6666666666666667e-05, 'epoch': 26.67}
+{'loss': 0.0953, 'grad_norm': 145.0176544189453, 'learning_rate': 1.6600529100529103e-05, 'epoch': 26.72}
+{'loss': 0.0336, 'grad_norm': 949.0960693359375, 'learning_rate': 1.6534391534391536e-05, 'epoch': 26.77}
+{'loss': 0.0918, 'grad_norm': 105515.9921875, 'learning_rate': 1.6468253968253968e-05, 'epoch': 26.83}
+{'loss': 0.113, 'grad_norm': 108581.2265625, 'learning_rate': 1.6402116402116404e-05, 'epoch': 26.88}
+{'loss': 0.0901, 'grad_norm': 21170.70703125, 'learning_rate': 1.633597883597884e-05, 'epoch': 26.93}
+{'loss': 0.1531, 'grad_norm': 234717.84375, 'learning_rate': 1.626984126984127e-05, 'epoch': 26.98}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 3.0679931640625, 'eval_accuracy': 0.66445842994369, 'eval_runtime': 5.871, 'eval_samples_per_second': 514.224, 'eval_steps_per_second': 8.176, 'epoch': 26.98}
+ 69%|██████████████████████████████████████████████████████████▍                          | 5200/7560 [41:12<13:04,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1138, 'grad_norm': 2299.5712890625, 'learning_rate': 1.6203703703703704e-05, 'epoch': 27.04}
+{'loss': 0.0825, 'grad_norm': 26773.88671875, 'learning_rate': 1.6137566137566136e-05, 'epoch': 27.09}
+{'loss': 0.0405, 'grad_norm': 29719.671875, 'learning_rate': 1.6071428571428572e-05, 'epoch': 27.14}
+{'loss': 0.0758, 'grad_norm': 107639.7265625, 'learning_rate': 1.6005291005291008e-05, 'epoch': 27.2}
+{'loss': 0.0901, 'grad_norm': 401454.4375, 'learning_rate': 1.593915343915344e-05, 'epoch': 27.25}
+{'loss': 0.0517, 'grad_norm': 367333.0625, 'learning_rate': 1.5873015873015872e-05, 'epoch': 27.3}
+{'loss': 0.0882, 'grad_norm': 341.11309814453125, 'learning_rate': 1.5806878306878308e-05, 'epoch': 27.35}
+{'loss': 0.0438, 'grad_norm': 7448.60302734375, 'learning_rate': 1.574074074074074e-05, 'epoch': 27.41}
+{'loss': 0.0322, 'grad_norm': 2994.892333984375, 'learning_rate': 1.5674603174603176e-05, 'epoch': 27.46}
+{'loss': 0.0916, 'grad_norm': 60798.96875, 'learning_rate': 1.560846560846561e-05, 'epoch': 27.51}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 3.152684450149536, 'eval_accuracy': 0.6485591255382577, 'eval_runtime': 5.8771, 'eval_samples_per_second': 513.687, 'eval_steps_per_second': 8.167, 'epoch': 27.51}
+ 70%|███████████████████████████████████████████████████████████▌                         | 5300/7560 [41:51<12:25,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0391, 'grad_norm': 17601.61328125, 'learning_rate': 1.5542328042328044e-05, 'epoch': 27.57}
+{'loss': 0.0328, 'grad_norm': 8260.84765625, 'learning_rate': 1.5476190476190476e-05, 'epoch': 27.62}
+{'loss': 0.0445, 'grad_norm': 25987.60546875, 'learning_rate': 1.5410052910052912e-05, 'epoch': 27.67}
+{'loss': 0.0711, 'grad_norm': 7050.994140625, 'learning_rate': 1.5343915343915344e-05, 'epoch': 27.72}
+{'loss': 0.0805, 'grad_norm': 320645.03125, 'learning_rate': 1.527777777777778e-05, 'epoch': 27.78}
+{'loss': 0.0922, 'grad_norm': 258.3634948730469, 'learning_rate': 1.5211640211640213e-05, 'epoch': 27.83}
+{'loss': 0.045, 'grad_norm': 337.32806396484375, 'learning_rate': 1.5145502645502647e-05, 'epoch': 27.88}
+{'loss': 0.0687, 'grad_norm': 12821440.0, 'learning_rate': 1.5079365079365079e-05, 'epoch': 27.94}
+{'loss': 0.05, 'grad_norm': 3182562.75, 'learning_rate': 1.5013227513227515e-05, 'epoch': 27.99}
+{'loss': 0.03, 'grad_norm': 407.9967346191406, 'learning_rate': 1.4947089947089949e-05, 'epoch': 28.04}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 3.6760199069976807, 'eval_accuracy': 0.6558463067240808, 'eval_runtime': 5.8735, 'eval_samples_per_second': 514.008, 'eval_steps_per_second': 8.172, 'epoch': 28.04}
+ 71%|████████████████████████████████████████████████████████████▋                        | 5400/7560 [42:30<11:57,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0432, 'grad_norm': 13.471830368041992, 'learning_rate': 1.4880952380952381e-05, 'epoch': 28.1}
+{'loss': 0.0825, 'grad_norm': 364.4892272949219, 'learning_rate': 1.4814814814814815e-05, 'epoch': 28.15}
+{'loss': 0.0492, 'grad_norm': 335.3625793457031, 'learning_rate': 1.474867724867725e-05, 'epoch': 28.2}
+{'loss': 0.0642, 'grad_norm': 315.47265625, 'learning_rate': 1.4682539682539683e-05, 'epoch': 28.25}
+{'loss': 0.0566, 'grad_norm': 56073.39453125, 'learning_rate': 1.4616402116402117e-05, 'epoch': 28.31}
+{'loss': 0.0208, 'grad_norm': 11.935188293457031, 'learning_rate': 1.455026455026455e-05, 'epoch': 28.36}
+{'loss': 0.136, 'grad_norm': 20.020883560180664, 'learning_rate': 1.4484126984126987e-05, 'epoch': 28.41}
+{'loss': 0.0732, 'grad_norm': 7.994006156921387, 'learning_rate': 1.4417989417989419e-05, 'epoch': 28.47}
+{'loss': 0.1198, 'grad_norm': 6144798.5, 'learning_rate': 1.4351851851851853e-05, 'epoch': 28.52}
+{'loss': 0.1523, 'grad_norm': 1697.3673095703125, 'learning_rate': 1.4285714285714285e-05, 'epoch': 28.57}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 3.9394938945770264, 'eval_accuracy': 0.6498840675720438, 'eval_runtime': 5.8733, 'eval_samples_per_second': 514.021, 'eval_steps_per_second': 8.173, 'epoch': 28.57}
+ 73%|█████████████████████████████████████████████████████████████▊                       | 5500/7560 [43:09<11:22,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.04, 'grad_norm': 1590.108154296875, 'learning_rate': 1.4219576719576721e-05, 'epoch': 28.62}
+{'loss': 0.0548, 'grad_norm': 3927825.0, 'learning_rate': 1.4153439153439155e-05, 'epoch': 28.68}
+{'loss': 0.0975, 'grad_norm': 307.4349365234375, 'learning_rate': 1.4087301587301587e-05, 'epoch': 28.73}
+{'loss': 0.1305, 'grad_norm': 121077.4765625, 'learning_rate': 1.4021164021164022e-05, 'epoch': 28.78}
+{'loss': 0.0706, 'grad_norm': 6.1505560874938965, 'learning_rate': 1.3955026455026457e-05, 'epoch': 28.84}
+{'loss': 0.1251, 'grad_norm': 1241708.0, 'learning_rate': 1.388888888888889e-05, 'epoch': 28.89}
+{'loss': 0.0839, 'grad_norm': 2394988.25, 'learning_rate': 1.3822751322751324e-05, 'epoch': 28.94}
+{'loss': 0.0935, 'grad_norm': 5.658200740814209, 'learning_rate': 1.3756613756613756e-05, 'epoch': 28.99}
+{'loss': 0.0886, 'grad_norm': 62.305423736572266, 'learning_rate': 1.3690476190476192e-05, 'epoch': 29.05}
+{'loss': 0.0921, 'grad_norm': 2365570.75, 'learning_rate': 1.3624338624338626e-05, 'epoch': 29.1}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 4.073917388916016, 'eval_accuracy': 0.6611460748592249, 'eval_runtime': 5.868, 'eval_samples_per_second': 514.489, 'eval_steps_per_second': 8.18, 'epoch': 29.1}
+ 74%|██████████████████████████████████████████████████████████████▉                      | 5600/7560 [43:48<10:48,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1145, 'grad_norm': 306200.65625, 'learning_rate': 1.3558201058201058e-05, 'epoch': 29.15}
+{'loss': 0.1198, 'grad_norm': 1374.4539794921875, 'learning_rate': 1.3492063492063492e-05, 'epoch': 29.21}
+{'loss': 0.0477, 'grad_norm': 26.056472778320312, 'learning_rate': 1.3425925925925928e-05, 'epoch': 29.26}
+{'loss': 0.0742, 'grad_norm': 31175.5078125, 'learning_rate': 1.3359788359788362e-05, 'epoch': 29.31}
+{'loss': 0.0664, 'grad_norm': 99042.4453125, 'learning_rate': 1.3293650793650794e-05, 'epoch': 29.37}
+{'loss': 0.0737, 'grad_norm': 480599.0, 'learning_rate': 1.3227513227513228e-05, 'epoch': 29.42}
+{'loss': 0.0898, 'grad_norm': 48.71376037597656, 'learning_rate': 1.3161375661375664e-05, 'epoch': 29.47}
+{'loss': 0.081, 'grad_norm': 4.613269805908203, 'learning_rate': 1.3095238095238096e-05, 'epoch': 29.52}
+{'loss': 0.0689, 'grad_norm': 10.59615421295166, 'learning_rate': 1.302910052910053e-05, 'epoch': 29.58}
+{'loss': 0.1545, 'grad_norm': 208162.484375, 'learning_rate': 1.2962962962962962e-05, 'epoch': 29.63}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 4.439423084259033, 'eval_accuracy': 0.6591586618085459, 'eval_runtime': 5.8419, 'eval_samples_per_second': 516.785, 'eval_steps_per_second': 8.217, 'epoch': 29.63}
+ 75%|████████████████████████████████████████████████████████████████                     | 5700/7560 [44:27<10:14,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0825, 'grad_norm': 1.4541704654693604, 'learning_rate': 1.2896825396825398e-05, 'epoch': 29.68}
+{'loss': 0.0913, 'grad_norm': 2011389.0, 'learning_rate': 1.2830687830687832e-05, 'epoch': 29.74}
+{'loss': 0.0745, 'grad_norm': 1.4931371212005615, 'learning_rate': 1.2764550264550265e-05, 'epoch': 29.79}
+{'loss': 0.0749, 'grad_norm': 1.0990478992462158, 'learning_rate': 1.2698412698412699e-05, 'epoch': 29.84}
+{'loss': 0.0596, 'grad_norm': 2098369.75, 'learning_rate': 1.2632275132275134e-05, 'epoch': 29.89}
+{'loss': 0.0523, 'grad_norm': 1.4870127439498901, 'learning_rate': 1.2566137566137568e-05, 'epoch': 29.95}
+{'loss': 0.0321, 'grad_norm': 5.197012901306152, 'learning_rate': 1.25e-05, 'epoch': 30.0}
+{'loss': 0.0771, 'grad_norm': 49.22944641113281, 'learning_rate': 1.2433862433862433e-05, 'epoch': 30.05}
+{'loss': 0.0638, 'grad_norm': 66972.75, 'learning_rate': 1.2367724867724869e-05, 'epoch': 30.11}
+{'loss': 0.0222, 'grad_norm': 0.3099636733531952, 'learning_rate': 1.2301587301587301e-05, 'epoch': 30.16}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.140509128570557, 'eval_accuracy': 0.6568400132494203, 'eval_runtime': 5.867, 'eval_samples_per_second': 514.575, 'eval_steps_per_second': 8.181, 'epoch': 30.16}
+ 77%|█████████████████████████████████████████████████████████████████▏                   | 5800/7560 [45:06<09:35,  3.06it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0179, 'grad_norm': 50.21784210205078, 'learning_rate': 1.2235449735449737e-05, 'epoch': 30.21}
+{'loss': 0.0665, 'grad_norm': 51046.69921875, 'learning_rate': 1.2169312169312169e-05, 'epoch': 30.26}
+{'loss': 0.0112, 'grad_norm': 1819.995849609375, 'learning_rate': 1.2103174603174603e-05, 'epoch': 30.32}
+{'loss': 0.06, 'grad_norm': 0.48997554183006287, 'learning_rate': 1.2037037037037037e-05, 'epoch': 30.37}
+{'loss': 0.1104, 'grad_norm': 0.28192272782325745, 'learning_rate': 1.1970899470899471e-05, 'epoch': 30.42}
+{'loss': 0.0826, 'grad_norm': 73607.421875, 'learning_rate': 1.1904761904761905e-05, 'epoch': 30.48}
+{'loss': 0.119, 'grad_norm': 0.4420110285282135, 'learning_rate': 1.1838624338624339e-05, 'epoch': 30.53}
+{'loss': 0.0487, 'grad_norm': 34.30870819091797, 'learning_rate': 1.1772486772486773e-05, 'epoch': 30.58}
+{'loss': 0.1152, 'grad_norm': 0.36585548520088196, 'learning_rate': 1.1706349206349207e-05, 'epoch': 30.63}
+{'loss': 0.1478, 'grad_norm': 5.307364463806152, 'learning_rate': 1.164021164021164e-05, 'epoch': 30.69}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.285294055938721, 'eval_accuracy': 0.6631334879099039, 'eval_runtime': 5.7027, 'eval_samples_per_second': 529.401, 'eval_steps_per_second': 8.417, 'epoch': 30.69}
+ 78%|██████████████████████████████████████████████████████████████████▎                  | 5900/7560 [45:44<09:07,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1003, 'grad_norm': 535538.375, 'learning_rate': 1.1574074074074075e-05, 'epoch': 30.74}
+{'loss': 0.0973, 'grad_norm': 0.6216278672218323, 'learning_rate': 1.1507936507936508e-05, 'epoch': 30.79}
+{'loss': 0.0916, 'grad_norm': 0.421334832906723, 'learning_rate': 1.1441798941798943e-05, 'epoch': 30.85}
+{'loss': 0.2188, 'grad_norm': 364567.09375, 'learning_rate': 1.1375661375661376e-05, 'epoch': 30.9}
+{'loss': 0.1338, 'grad_norm': 281027.09375, 'learning_rate': 1.130952380952381e-05, 'epoch': 30.95}
+{'loss': 0.1274, 'grad_norm': 3.5167384147644043, 'learning_rate': 1.1243386243386244e-05, 'epoch': 31.01}
+{'loss': 0.0675, 'grad_norm': 0.21542683243751526, 'learning_rate': 1.1177248677248678e-05, 'epoch': 31.06}
+{'loss': 0.0582, 'grad_norm': 651155.1875, 'learning_rate': 1.1111111111111112e-05, 'epoch': 31.11}
+{'loss': 0.0226, 'grad_norm': 0.21618176996707916, 'learning_rate': 1.1044973544973546e-05, 'epoch': 31.16}
+{'loss': 0.1317, 'grad_norm': 307924.71875, 'learning_rate': 1.0978835978835978e-05, 'epoch': 31.22}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.429444789886475, 'eval_accuracy': 0.6568400132494203, 'eval_runtime': 5.8752, 'eval_samples_per_second': 513.854, 'eval_steps_per_second': 8.17, 'epoch': 31.22}
+ 79%|███████████████████████████████████████████████████████████████████▍                 | 6000/7560 [46:24<08:39,  3.00it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.116, 'grad_norm': 105.4801254272461, 'learning_rate': 1.0912698412698414e-05, 'epoch': 31.27}
+{'loss': 0.0257, 'grad_norm': 11.653937339782715, 'learning_rate': 1.0846560846560846e-05, 'epoch': 31.32}
+{'loss': 0.0583, 'grad_norm': 6.357015132904053, 'learning_rate': 1.0780423280423282e-05, 'epoch': 31.38}
+{'loss': 0.09, 'grad_norm': 0.48042944073677063, 'learning_rate': 1.0714285714285714e-05, 'epoch': 31.43}
+{'loss': 0.0745, 'grad_norm': 0.09319871664047241, 'learning_rate': 1.0648148148148148e-05, 'epoch': 31.48}
+{'loss': 0.1238, 'grad_norm': 895244.0625, 'learning_rate': 1.0582010582010582e-05, 'epoch': 31.53}
+{'loss': 0.0005, 'grad_norm': 0.12475764006376266, 'learning_rate': 1.0515873015873016e-05, 'epoch': 31.59}
+{'loss': 0.0734, 'grad_norm': 0.1071002259850502, 'learning_rate': 1.044973544973545e-05, 'epoch': 31.64}
+{'loss': 0.0662, 'grad_norm': 36605.1953125, 'learning_rate': 1.0383597883597884e-05, 'epoch': 31.69}
+{'loss': 0.0921, 'grad_norm': 7871894.5, 'learning_rate': 1.0317460317460318e-05, 'epoch': 31.75}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.498892307281494, 'eval_accuracy': 0.6541901291818483, 'eval_runtime': 5.8836, 'eval_samples_per_second': 513.117, 'eval_steps_per_second': 8.158, 'epoch': 31.75}
+ 81%|████████████████████████████████████████████████████████████████████▌                | 6100/7560 [47:03<08:05,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0766, 'grad_norm': 0.08808718621730804, 'learning_rate': 1.0251322751322752e-05, 'epoch': 31.8}
+{'loss': 0.1097, 'grad_norm': 1285220.5, 'learning_rate': 1.0185185185185185e-05, 'epoch': 31.85}
+{'loss': 0.1099, 'grad_norm': 18947.42578125, 'learning_rate': 1.011904761904762e-05, 'epoch': 31.9}
+{'loss': 0.0512, 'grad_norm': 1747277.5, 'learning_rate': 1.0052910052910053e-05, 'epoch': 31.96}
+{'loss': 0.0258, 'grad_norm': 0.08559619635343552, 'learning_rate': 9.986772486772487e-06, 'epoch': 32.01}
+{'loss': 0.0137, 'grad_norm': 383599.78125, 'learning_rate': 9.92063492063492e-06, 'epoch': 32.06}
+{'loss': 0.0507, 'grad_norm': 3841579.25, 'learning_rate': 9.854497354497355e-06, 'epoch': 32.12}
+{'loss': 0.0259, 'grad_norm': 0.06998086720705032, 'learning_rate': 9.788359788359789e-06, 'epoch': 32.17}
+{'loss': 0.0476, 'grad_norm': 0.05691250041127205, 'learning_rate': 9.722222222222223e-06, 'epoch': 32.22}
+{'loss': 0.1222, 'grad_norm': 598665.0625, 'learning_rate': 9.656084656084657e-06, 'epoch': 32.28}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.471517086029053, 'eval_accuracy': 0.6601523683338854, 'eval_runtime': 5.8736, 'eval_samples_per_second': 513.995, 'eval_steps_per_second': 8.172, 'epoch': 32.28}
+ 82%|█████████████████████████████████████████████████████████████████████▋               | 6200/7560 [47:42<07:31,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0672, 'grad_norm': 133416.5, 'learning_rate': 9.58994708994709e-06, 'epoch': 32.33}
+{'loss': 0.0249, 'grad_norm': 0.8921814560890198, 'learning_rate': 9.523809523809523e-06, 'epoch': 32.38}
+{'loss': 0.0225, 'grad_norm': 0.03812281787395477, 'learning_rate': 9.457671957671959e-06, 'epoch': 32.43}
+{'loss': 0.0904, 'grad_norm': 0.3024801015853882, 'learning_rate': 9.391534391534391e-06, 'epoch': 32.49}
+{'loss': 0.0595, 'grad_norm': 113231.6640625, 'learning_rate': 9.325396825396827e-06, 'epoch': 32.54}
+{'loss': 0.0515, 'grad_norm': 0.20040185749530792, 'learning_rate': 9.259259259259259e-06, 'epoch': 32.59}
+{'loss': 0.0859, 'grad_norm': 0.13140743970870972, 'learning_rate': 9.193121693121693e-06, 'epoch': 32.65}
+{'loss': 0.1134, 'grad_norm': 187470.84375, 'learning_rate': 9.126984126984127e-06, 'epoch': 32.7}
+{'loss': 0.0806, 'grad_norm': 196.99667358398438, 'learning_rate': 9.060846560846561e-06, 'epoch': 32.75}
+{'loss': 0.1534, 'grad_norm': 367837.78125, 'learning_rate': 8.994708994708995e-06, 'epoch': 32.8}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.4223551750183105, 'eval_accuracy': 0.6594898973169924, 'eval_runtime': 5.8834, 'eval_samples_per_second': 513.139, 'eval_steps_per_second': 8.159, 'epoch': 32.8}
+ 83%|██████████████████████████████████████████████████████████████████████▊              | 6300/7560 [48:21<06:58,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0881, 'grad_norm': 23.635812759399414, 'learning_rate': 8.92857142857143e-06, 'epoch': 32.86}
+{'loss': 0.0752, 'grad_norm': 375662.875, 'learning_rate': 8.862433862433862e-06, 'epoch': 32.91}
+{'loss': 0.0975, 'grad_norm': 606520.8125, 'learning_rate': 8.796296296296297e-06, 'epoch': 32.96}
+{'loss': 0.0287, 'grad_norm': 0.6016396284103394, 'learning_rate': 8.73015873015873e-06, 'epoch': 33.02}
+{'loss': 0.0583, 'grad_norm': 0.5647597312927246, 'learning_rate': 8.664021164021165e-06, 'epoch': 33.07}
+{'loss': 0.0001, 'grad_norm': 3139.635009765625, 'learning_rate': 8.597883597883598e-06, 'epoch': 33.12}
+{'loss': 0.0258, 'grad_norm': 0.05852237343788147, 'learning_rate': 8.531746031746032e-06, 'epoch': 33.17}
+{'loss': 0.053, 'grad_norm': 119657.3046875, 'learning_rate': 8.465608465608466e-06, 'epoch': 33.23}
+{'loss': 0.04, 'grad_norm': 0.29423588514328003, 'learning_rate': 8.3994708994709e-06, 'epoch': 33.28}
+{'loss': 0.0484, 'grad_norm': 242.16876220703125, 'learning_rate': 8.333333333333334e-06, 'epoch': 33.33}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.402738094329834, 'eval_accuracy': 0.6634647234183505, 'eval_runtime': 5.8753, 'eval_samples_per_second': 513.85, 'eval_steps_per_second': 8.17, 'epoch': 33.33}
+ 85%|███████████████████████████████████████████████████████████████████████▉             | 6400/7560 [49:00<06:24,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0284, 'grad_norm': 2209407.0, 'learning_rate': 8.267195767195768e-06, 'epoch': 33.39}
+{'loss': 0.0904, 'grad_norm': 1022117.75, 'learning_rate': 8.201058201058202e-06, 'epoch': 33.44}
+{'loss': 0.0429, 'grad_norm': 0.328986257314682, 'learning_rate': 8.134920634920636e-06, 'epoch': 33.49}
+{'loss': 0.1135, 'grad_norm': 3009.000732421875, 'learning_rate': 8.068783068783068e-06, 'epoch': 33.54}
+{'loss': 0.117, 'grad_norm': 2392196.75, 'learning_rate': 8.002645502645504e-06, 'epoch': 33.6}
+{'loss': 0.1277, 'grad_norm': 0.2681335210800171, 'learning_rate': 7.936507936507936e-06, 'epoch': 33.65}
+{'loss': 0.0395, 'grad_norm': 6.486204147338867, 'learning_rate': 7.87037037037037e-06, 'epoch': 33.7}
+{'loss': 0.0428, 'grad_norm': 0.2596225440502167, 'learning_rate': 7.804232804232804e-06, 'epoch': 33.76}
+{'loss': 0.0965, 'grad_norm': 0.1078912541270256, 'learning_rate': 7.738095238095238e-06, 'epoch': 33.81}
+{'loss': 0.085, 'grad_norm': 72.6513442993164, 'learning_rate': 7.671957671957672e-06, 'epoch': 33.86}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.38886833190918, 'eval_accuracy': 0.6631334879099039, 'eval_runtime': 5.8737, 'eval_samples_per_second': 513.989, 'eval_steps_per_second': 8.172, 'epoch': 33.86}
+ 86%|█████████████████████████████████████████████████████████████████████████            | 6500/7560 [49:39<05:50,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0183, 'grad_norm': 261508.4375, 'learning_rate': 7.605820105820106e-06, 'epoch': 33.92}
+{'loss': 0.1304, 'grad_norm': 463402.75, 'learning_rate': 7.5396825396825394e-06, 'epoch': 33.97}
+{'loss': 0.0637, 'grad_norm': 0.11358776688575745, 'learning_rate': 7.473544973544974e-06, 'epoch': 34.02}
+{'loss': 0.0147, 'grad_norm': 557765.5, 'learning_rate': 7.4074074074074075e-06, 'epoch': 34.07}
+{'loss': 0.0709, 'grad_norm': 723874.0, 'learning_rate': 7.3412698412698415e-06, 'epoch': 34.13}
+{'loss': 0.0503, 'grad_norm': 99.70398712158203, 'learning_rate': 7.275132275132275e-06, 'epoch': 34.18}
+{'loss': 0.0365, 'grad_norm': 0.04700588807463646, 'learning_rate': 7.2089947089947095e-06, 'epoch': 34.23}
+{'loss': 0.0587, 'grad_norm': 100314.2578125, 'learning_rate': 7.142857142857143e-06, 'epoch': 34.29}
+{'loss': 0.0689, 'grad_norm': 0.041852567344903946, 'learning_rate': 7.076719576719578e-06, 'epoch': 34.34}
+{'loss': 0.1408, 'grad_norm': 0.27663859724998474, 'learning_rate': 7.010582010582011e-06, 'epoch': 34.39}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.453857898712158, 'eval_accuracy': 0.6614773103676714, 'eval_runtime': 5.8829, 'eval_samples_per_second': 513.186, 'eval_steps_per_second': 8.159, 'epoch': 34.39}
+ 87%|██████████████████████████████████████████████████████████████████████████▏          | 6600/7560 [50:19<05:19,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.042, 'grad_norm': 0.1553296148777008, 'learning_rate': 6.944444444444445e-06, 'epoch': 34.44}
+{'loss': 0.0431, 'grad_norm': 0.48086512088775635, 'learning_rate': 6.878306878306878e-06, 'epoch': 34.5}
+{'loss': 0.0519, 'grad_norm': 0.15630675852298737, 'learning_rate': 6.812169312169313e-06, 'epoch': 34.55}
+{'loss': 0.0378, 'grad_norm': 4653070.0, 'learning_rate': 6.746031746031746e-06, 'epoch': 34.6}
+{'loss': 0.1619, 'grad_norm': 150266.71875, 'learning_rate': 6.679894179894181e-06, 'epoch': 34.66}
+{'loss': 0.0185, 'grad_norm': 6205.55712890625, 'learning_rate': 6.613756613756614e-06, 'epoch': 34.71}
+{'loss': 0.0138, 'grad_norm': 0.7008468508720398, 'learning_rate': 6.547619047619048e-06, 'epoch': 34.76}
+{'loss': 0.0219, 'grad_norm': 350256.21875, 'learning_rate': 6.481481481481481e-06, 'epoch': 34.81}
+{'loss': 0.0769, 'grad_norm': 121923.0078125, 'learning_rate': 6.415343915343916e-06, 'epoch': 34.87}
+{'loss': 0.0766, 'grad_norm': 45.99025344848633, 'learning_rate': 6.349206349206349e-06, 'epoch': 34.92}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.518344879150391, 'eval_accuracy': 0.6581649552832064, 'eval_runtime': 5.8791, 'eval_samples_per_second': 513.514, 'eval_steps_per_second': 8.165, 'epoch': 34.92}
+ 89%|███████████████████████████████████████████████████████████████████████████▎         | 6700/7560 [50:58<04:45,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1132, 'grad_norm': 0.536948025226593, 'learning_rate': 6.283068783068784e-06, 'epoch': 34.97}
+{'loss': 0.0653, 'grad_norm': 2173891.0, 'learning_rate': 6.2169312169312165e-06, 'epoch': 35.03}
+{'loss': 0.0715, 'grad_norm': 112384.5, 'learning_rate': 6.1507936507936505e-06, 'epoch': 35.08}
+{'loss': 0.0658, 'grad_norm': 2506.93017578125, 'learning_rate': 6.0846560846560845e-06, 'epoch': 35.13}
+{'loss': 0.0553, 'grad_norm': 0.2582100033760071, 'learning_rate': 6.0185185185185185e-06, 'epoch': 35.19}
+{'loss': 0.0126, 'grad_norm': 737768.875, 'learning_rate': 5.9523809523809525e-06, 'epoch': 35.24}
+{'loss': 0.0461, 'grad_norm': 14.50991153717041, 'learning_rate': 5.8862433862433866e-06, 'epoch': 35.29}
+{'loss': 0.0479, 'grad_norm': 0.5804997682571411, 'learning_rate': 5.82010582010582e-06, 'epoch': 35.34}
+{'loss': 0.1059, 'grad_norm': 540.32080078125, 'learning_rate': 5.753968253968254e-06, 'epoch': 35.4}
+{'loss': 0.0216, 'grad_norm': 0.2468140721321106, 'learning_rate': 5.687830687830688e-06, 'epoch': 35.45}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.538218975067139, 'eval_accuracy': 0.6578337197747599, 'eval_runtime': 5.8768, 'eval_samples_per_second': 513.712, 'eval_steps_per_second': 8.168, 'epoch': 35.45}
+ 90%|████████████████████████████████████████████████████████████████████████████▍        | 6800/7560 [51:37<04:12,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0, 'grad_norm': 0.07396670430898666, 'learning_rate': 5.621693121693122e-06, 'epoch': 35.5}
+{'loss': 0.0818, 'grad_norm': 1371559.25, 'learning_rate': 5.555555555555556e-06, 'epoch': 35.56}
+{'loss': 0.0771, 'grad_norm': 118.33716583251953, 'learning_rate': 5.489417989417989e-06, 'epoch': 35.61}
+{'loss': 0.071, 'grad_norm': 449850.0625, 'learning_rate': 5.423280423280423e-06, 'epoch': 35.66}
+{'loss': 0.0101, 'grad_norm': 0.06825736910104752, 'learning_rate': 5.357142857142857e-06, 'epoch': 35.71}
+{'loss': 0.0584, 'grad_norm': 0.04839365929365158, 'learning_rate': 5.291005291005291e-06, 'epoch': 35.77}
+{'loss': 0.0583, 'grad_norm': 0.3340427875518799, 'learning_rate': 5.224867724867725e-06, 'epoch': 35.82}
+{'loss': 0.028, 'grad_norm': 262.04052734375, 'learning_rate': 5.158730158730159e-06, 'epoch': 35.87}
+{'loss': 0.0983, 'grad_norm': 1220242.5, 'learning_rate': 5.092592592592592e-06, 'epoch': 35.93}
+{'loss': 0.093, 'grad_norm': 247888.171875, 'learning_rate': 5.026455026455026e-06, 'epoch': 35.98}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.4497389793396, 'eval_accuracy': 0.6647896654521365, 'eval_runtime': 5.8733, 'eval_samples_per_second': 514.021, 'eval_steps_per_second': 8.173, 'epoch': 35.98}
+ 91%|█████████████████████████████████████████████████████████████████████████████▌       | 6900/7560 [52:16<03:39,  3.00it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0458, 'grad_norm': 7.332835674285889, 'learning_rate': 4.96031746031746e-06, 'epoch': 36.03}
+{'loss': 0.0176, 'grad_norm': 0.26412156224250793, 'learning_rate': 4.894179894179894e-06, 'epoch': 36.08}
+{'loss': 0.0309, 'grad_norm': 0.6223717331886292, 'learning_rate': 4.828042328042328e-06, 'epoch': 36.14}
+{'loss': 0.0802, 'grad_norm': 1962279.5, 'learning_rate': 4.7619047619047615e-06, 'epoch': 36.19}
+{'loss': 0.0484, 'grad_norm': 0.03597012534737587, 'learning_rate': 4.6957671957671955e-06, 'epoch': 36.24}
+{'loss': 0.0271, 'grad_norm': 0.05210171267390251, 'learning_rate': 4.6296296296296296e-06, 'epoch': 36.3}
+{'loss': 0.0555, 'grad_norm': 1331948.375, 'learning_rate': 4.563492063492064e-06, 'epoch': 36.35}
+{'loss': 0.0241, 'grad_norm': 0.0544850192964077, 'learning_rate': 4.497354497354498e-06, 'epoch': 36.4}
+{'loss': 0.0441, 'grad_norm': 408.27117919921875, 'learning_rate': 4.431216931216931e-06, 'epoch': 36.46}
+{'loss': 0.0126, 'grad_norm': 748615.5625, 'learning_rate': 4.365079365079365e-06, 'epoch': 36.51}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.587809085845947, 'eval_accuracy': 0.6631334879099039, 'eval_runtime': 5.8758, 'eval_samples_per_second': 513.803, 'eval_steps_per_second': 8.169, 'epoch': 36.51}
+ 93%|██████████████████████████████████████████████████████████████████████████████▋      | 7000/7560 [52:55<03:04,  3.03it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.126, 'grad_norm': 123041.984375, 'learning_rate': 4.298941798941799e-06, 'epoch': 36.56}
+{'loss': 0.0239, 'grad_norm': 0.04427528381347656, 'learning_rate': 4.232804232804233e-06, 'epoch': 36.61}
+{'loss': 0.0401, 'grad_norm': 0.02872498333454132, 'learning_rate': 4.166666666666667e-06, 'epoch': 36.67}
+{'loss': 0.0246, 'grad_norm': 0.05924832820892334, 'learning_rate': 4.100529100529101e-06, 'epoch': 36.72}
+{'loss': 0.0316, 'grad_norm': 0.05410172417759895, 'learning_rate': 4.034391534391534e-06, 'epoch': 36.77}
+{'loss': 0.1153, 'grad_norm': 393140.59375, 'learning_rate': 3.968253968253968e-06, 'epoch': 36.83}
+{'loss': 0.0745, 'grad_norm': 0.7625305652618408, 'learning_rate': 3.902116402116402e-06, 'epoch': 36.88}
+{'loss': 0.0575, 'grad_norm': 31.523258209228516, 'learning_rate': 3.835978835978836e-06, 'epoch': 36.93}
+{'loss': 0.0093, 'grad_norm': 0.02780945971608162, 'learning_rate': 3.7698412698412697e-06, 'epoch': 36.98}
+{'loss': 0.0292, 'grad_norm': 568072.625, 'learning_rate': 3.7037037037037037e-06, 'epoch': 37.04}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.597960472106934, 'eval_accuracy': 0.6588274263000994, 'eval_runtime': 5.868, 'eval_samples_per_second': 514.483, 'eval_steps_per_second': 8.18, 'epoch': 37.04}
+ 94%|███████████████████████████████████████████████████████████████████████████████▊     | 7100/7560 [53:35<02:32,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0, 'grad_norm': 0.059428587555885315, 'learning_rate': 3.6375661375661373e-06, 'epoch': 37.09}
+{'loss': 0.0175, 'grad_norm': 0.039397235959768295, 'learning_rate': 3.5714285714285714e-06, 'epoch': 37.14}
+{'loss': 0.0, 'grad_norm': 0.3875359892845154, 'learning_rate': 3.5052910052910054e-06, 'epoch': 37.2}
+{'loss': 0.036, 'grad_norm': 308.6008605957031, 'learning_rate': 3.439153439153439e-06, 'epoch': 37.25}
+{'loss': 0.0547, 'grad_norm': 255356.15625, 'learning_rate': 3.373015873015873e-06, 'epoch': 37.3}
+{'loss': 0.0604, 'grad_norm': 0.044939275830984116, 'learning_rate': 3.306878306878307e-06, 'epoch': 37.35}
+{'loss': 0.0584, 'grad_norm': 2517098.25, 'learning_rate': 3.2407407407407406e-06, 'epoch': 37.41}
+{'loss': 0.0072, 'grad_norm': 1041.71435546875, 'learning_rate': 3.1746031746031746e-06, 'epoch': 37.46}
+{'loss': 0.0416, 'grad_norm': 2212074.0, 'learning_rate': 3.1084656084656082e-06, 'epoch': 37.51}
+{'loss': 0.0687, 'grad_norm': 0.04104755446314812, 'learning_rate': 3.0423280423280423e-06, 'epoch': 37.57}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.576663017272949, 'eval_accuracy': 0.6621397813845644, 'eval_runtime': 5.8667, 'eval_samples_per_second': 514.603, 'eval_steps_per_second': 8.182, 'epoch': 37.57}
+ 95%|████████████████████████████████████████████████████████████████████████████████▉    | 7200/7560 [54:14<01:59,  3.02it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0759, 'grad_norm': 0.2385459840297699, 'learning_rate': 2.9761904761904763e-06, 'epoch': 37.62}
+{'loss': 0.0274, 'grad_norm': 2.07351016998291, 'learning_rate': 2.91005291005291e-06, 'epoch': 37.67}
+{'loss': 0.0322, 'grad_norm': 0.08171212673187256, 'learning_rate': 2.843915343915344e-06, 'epoch': 37.72}
+{'loss': 0.1177, 'grad_norm': 1114499.625, 'learning_rate': 2.777777777777778e-06, 'epoch': 37.78}
+{'loss': 0.0576, 'grad_norm': 1805139.875, 'learning_rate': 2.7116402116402115e-06, 'epoch': 37.83}
+{'loss': 0.0909, 'grad_norm': 229.8137664794922, 'learning_rate': 2.6455026455026455e-06, 'epoch': 37.88}
+{'loss': 0.0339, 'grad_norm': 0.02908206917345524, 'learning_rate': 2.5793650793650795e-06, 'epoch': 37.94}
+{'loss': 0.0276, 'grad_norm': 0.15016555786132812, 'learning_rate': 2.513227513227513e-06, 'epoch': 37.99}
+{'loss': 0.0585, 'grad_norm': 392293.03125, 'learning_rate': 2.447089947089947e-06, 'epoch': 38.04}
+{'loss': 0.0004, 'grad_norm': 0.11292893439531326, 'learning_rate': 2.3809523809523808e-06, 'epoch': 38.1}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.580408573150635, 'eval_accuracy': 0.6601523683338854, 'eval_runtime': 5.8565, 'eval_samples_per_second': 515.5, 'eval_steps_per_second': 8.196, 'epoch': 38.1}
+ 97%|██████████████████████████████████████████████████████████████████████████████████   | 7300/7560 [54:52<01:24,  3.07it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0001, 'grad_norm': 0.13005882501602173, 'learning_rate': 2.3148148148148148e-06, 'epoch': 38.15}
+{'loss': 0.0155, 'grad_norm': 3649.959228515625, 'learning_rate': 2.248677248677249e-06, 'epoch': 38.2}
+{'loss': 0.0503, 'grad_norm': 451371.84375, 'learning_rate': 2.1825396825396824e-06, 'epoch': 38.25}
+{'loss': 0.0203, 'grad_norm': 0.05563035607337952, 'learning_rate': 2.1164021164021164e-06, 'epoch': 38.31}
+{'loss': 0.0596, 'grad_norm': 306235.90625, 'learning_rate': 2.0502645502645504e-06, 'epoch': 38.36}
+{'loss': 0.052, 'grad_norm': 0.04552486911416054, 'learning_rate': 1.984126984126984e-06, 'epoch': 38.41}
+{'loss': 0.047, 'grad_norm': 1347003.5, 'learning_rate': 1.917989417989418e-06, 'epoch': 38.47}
+{'loss': 0.0232, 'grad_norm': 282332.34375, 'learning_rate': 1.8518518518518519e-06, 'epoch': 38.52}
+{'loss': 0.0266, 'grad_norm': 0.5993641018867493, 'learning_rate': 1.7857142857142857e-06, 'epoch': 38.57}
+{'loss': 0.0357, 'grad_norm': 0.03805167227983475, 'learning_rate': 1.7195767195767195e-06, 'epoch': 38.62}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.581387996673584, 'eval_accuracy': 0.6621397813845644, 'eval_runtime': 5.686, 'eval_samples_per_second': 530.957, 'eval_steps_per_second': 8.442, 'epoch': 38.62}
+ 98%|███████████████████████████████████████████████████████████████████████████████████▏ | 7400/7560 [55:31<00:53,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0548, 'grad_norm': 48.47132873535156, 'learning_rate': 1.6534391534391535e-06, 'epoch': 38.68}
+{'loss': 0.0471, 'grad_norm': 10.67029094696045, 'learning_rate': 1.5873015873015873e-06, 'epoch': 38.73}
+{'loss': 0.0459, 'grad_norm': 116240.0390625, 'learning_rate': 1.5211640211640211e-06, 'epoch': 38.78}
+{'loss': 0.067, 'grad_norm': 1157204.125, 'learning_rate': 1.455026455026455e-06, 'epoch': 38.84}
+{'loss': 0.0673, 'grad_norm': 0.1345064342021942, 'learning_rate': 1.388888888888889e-06, 'epoch': 38.89}
+{'loss': 0.0009, 'grad_norm': 34.68986511230469, 'learning_rate': 1.3227513227513228e-06, 'epoch': 38.94}
+{'loss': 0.0636, 'grad_norm': 0.03208206593990326, 'learning_rate': 1.2566137566137566e-06, 'epoch': 38.99}
+{'loss': 0.0591, 'grad_norm': 253912.796875, 'learning_rate': 1.1904761904761904e-06, 'epoch': 39.05}
+{'loss': 0.0064, 'grad_norm': 434.92108154296875, 'learning_rate': 1.1243386243386244e-06, 'epoch': 39.1}
+{'loss': 0.0474, 'grad_norm': 0.023049267008900642, 'learning_rate': 1.0582010582010582e-06, 'epoch': 39.15}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.600216865539551, 'eval_accuracy': 0.6614773103676714, 'eval_runtime': 5.879, 'eval_samples_per_second': 513.526, 'eval_steps_per_second': 8.165, 'epoch': 39.15}
+ 99%|████████████████████████████████████████████████████████████████████████████████████▎| 7500/7560 [56:10<00:19,  3.01it/s]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0243, 'grad_norm': 0.09197896718978882, 'learning_rate': 9.92063492063492e-07, 'epoch': 39.21}
+{'loss': 0.0339, 'grad_norm': 0.02339799329638481, 'learning_rate': 9.259259259259259e-07, 'epoch': 39.26}
+{'loss': 0.036, 'grad_norm': 521367.6875, 'learning_rate': 8.597883597883597e-07, 'epoch': 39.31}
+{'loss': 0.0566, 'grad_norm': 0.020427560433745384, 'learning_rate': 7.936507936507937e-07, 'epoch': 39.37}
+{'loss': 0.0358, 'grad_norm': 0.03360360488295555, 'learning_rate': 7.275132275132275e-07, 'epoch': 39.42}
+{'loss': 0.0892, 'grad_norm': 758406.0625, 'learning_rate': 6.613756613756614e-07, 'epoch': 39.47}
+{'loss': 0.0242, 'grad_norm': 0.023884305730462074, 'learning_rate': 5.952380952380952e-07, 'epoch': 39.52}
+{'loss': 0.0637, 'grad_norm': 0.05101631209254265, 'learning_rate': 5.291005291005291e-07, 'epoch': 39.58}
+{'loss': 0.0151, 'grad_norm': 0.020125187933444977, 'learning_rate': 4.6296296296296297e-07, 'epoch': 39.63}
+{'loss': 0.0219, 'grad_norm': 0.02344372309744358, 'learning_rate': 3.9682539682539683e-07, 'epoch': 39.68}
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                             
+{'eval_loss': 5.601190090179443, 'eval_accuracy': 0.6614773103676714, 'eval_runtime': 5.8764, 'eval_samples_per_second': 513.748, 'eval_steps_per_second': 8.168, 'epoch': 39.68}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 7560/7560 [56:31<00:00,  2.23it/s]
+{'loss': 0.0405, 'grad_norm': 524507.6875, 'learning_rate': 3.306878306878307e-07, 'epoch': 39.74}
+{'loss': 0.0213, 'grad_norm': 4.369112014770508, 'learning_rate': 2.6455026455026455e-07, 'epoch': 39.79}
+{'loss': 0.0, 'grad_norm': 0.0382535494863987, 'learning_rate': 1.9841269841269841e-07, 'epoch': 39.84}
+{'loss': 0.0586, 'grad_norm': 0.1323452591896057, 'learning_rate': 1.3227513227513228e-07, 'epoch': 39.89}
+{'loss': 0.0367, 'grad_norm': 977355.1875, 'learning_rate': 6.613756613756614e-08, 'epoch': 39.95}
+{'loss': 0.0, 'grad_norm': 0.06004733592271805, 'learning_rate': 0.0, 'epoch': 40.0}
+{'train_runtime': 3393.6956, 'train_samples_per_second': 142.323, 'train_steps_per_second': 2.228, 'train_loss': 0.23150851738899653, 'epoch': 40.0}
+Evaluation on English validation set:
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 48/48 [00:05<00:00,  8.32it/s]
+Accuracy on English validation set: 0.6737330241801921
+Evaluation on Bengali dataset:
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 48/48 [00:05<00:00,  8.34it/s]
+Accuracy on Bengali test data: 0.5558131831732361
+Train-Val Loss Saved!!
+Val Acc Saved!!

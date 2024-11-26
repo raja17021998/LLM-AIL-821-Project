@@ -1,0 +1,19 @@
+{"time":"2024-11-26T03:22:30.034173596+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T03:22:30.034208872+05:30","level":"INFO","msg":"created symlink","path":"/home/pooja/shashwat/LLM-Project/wandb/run-20241126_032230-lch50sgg/logs/debug-core.log"}
+{"time":"2024-11-26T03:22:30.152757975+05:30","level":"INFO","msg":"created new stream","id":"lch50sgg"}
+{"time":"2024-11-26T03:22:30.152826522+05:30","level":"INFO","msg":"stream: started","id":"lch50sgg"}
+{"time":"2024-11-26T03:22:30.152873377+05:30","level":"INFO","msg":"handler: started","stream_id":"lch50sgg"}
+{"time":"2024-11-26T03:22:30.152928162+05:30","level":"INFO","msg":"sender: started","stream_id":"lch50sgg"}
+{"time":"2024-11-26T03:22:30.15287918+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lch50sgg"}
+{"time":"2024-11-26T03:22:30.583991936+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-26T05:23:52.277431501+05:30","level":"INFO","msg":"stream: closing","id":"lch50sgg"}
+{"time":"2024-11-26T05:23:52.277492735+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-26T05:23:52.278795751+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-26T05:23:52.608095724+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-26T05:23:52.608128031+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-26T05:23:52.608139926+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-26T05:23:54.825899595+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-26T05:23:55.511407064+05:30","level":"INFO","msg":"handler: closed","stream_id":"lch50sgg"}
+{"time":"2024-11-26T05:23:55.511464439+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lch50sgg"}
+{"time":"2024-11-26T05:23:55.511493444+05:30","level":"INFO","msg":"sender: closed","stream_id":"lch50sgg"}
+{"time":"2024-11-26T05:23:55.511567591+05:30","level":"INFO","msg":"stream: closed","id":"lch50sgg"}

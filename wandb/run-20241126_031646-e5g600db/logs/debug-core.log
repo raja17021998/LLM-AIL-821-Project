@@ -1,0 +1,15 @@
+{"time":"2024-11-26T03:16:45.286333799+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmpd8sa7avm/port-1672793.txt","pid":1672793,"debug":false,"disable-analytics":false}
+{"time":"2024-11-26T03:16:45.286371298+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-26T03:16:45.28752417+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":1672793}
+{"time":"2024-11-26T03:16:45.287514053+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":44713,"Zone":""}}
+{"time":"2024-11-26T03:16:45.474961982+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:46.161216292+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"e5g600db","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:46.280523079+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"e5g600db","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:46.859470736+05:30","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:46.859553919+05:30","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:46.859638542+05:30","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-11-26T03:16:46.859751678+05:30","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:47.194444275+05:30","level":"ERROR","msg":"processOutgoingData: flush error","error":"write tcp 127.0.0.1:44713->127.0.0.1:60498: use of closed network connection","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:50.092629671+05:30","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:50.092677765+05:30","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:60498"}
+{"time":"2024-11-26T03:16:50.092709721+05:30","level":"INFO","msg":"server is closed"}

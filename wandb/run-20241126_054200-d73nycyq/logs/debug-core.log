@@ -1,0 +1,14 @@
+{"time":"2024-11-26T05:41:59.464154763+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmp01ofnyqm/port-1710715.txt","pid":1710715,"debug":false,"disable-analytics":false}
+{"time":"2024-11-26T05:41:59.464203405+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-26T05:41:59.465410425+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":1710715}
+{"time":"2024-11-26T05:41:59.465401293+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":45875,"Zone":""}}
+{"time":"2024-11-26T05:41:59.651921453+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:00.348998651+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"d73nycyq","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:00.469528131+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"d73nycyq","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:06.214524181+05:30","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:06.214684008+05:30","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-11-26T05:42:06.214660221+05:30","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:06.214875552+05:30","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:07.905050161+05:30","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:07.905097656+05:30","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:51830"}
+{"time":"2024-11-26T05:42:07.905135721+05:30","level":"INFO","msg":"server is closed"}

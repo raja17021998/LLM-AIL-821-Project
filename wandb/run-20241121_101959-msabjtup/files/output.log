@@ -1,0 +1,17 @@
+  0%|                                                                           | 0/126 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+ 79%|███████████████████████████████████████████████████▌             | 100/126 [04:00<00:55,  2.13s/it]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+{'loss': 3.3469, 'grad_norm': 72.48687744140625, 'learning_rate': 1.388888888888889e-05, 'epoch': 1.59}
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")     
+{'eval_loss': 1.6233415603637695, 'eval_accuracy': 0.568, 'eval_runtime': 26.161, 'eval_samples_per_second': 19.112, 'eval_steps_per_second': 1.223, 'epoch': 1.59}
+100%|█████████████████████████████████████████████████████████████████| 126/126 [04:55<00:00,  2.03s/it]Traceback (most recent call last):
+  File "/home/pooja/shashwat/LLM-Project/task3_lora.py", line 140, in <module>
+    trainer.train()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2601, in _inner_training_loop
+    self._load_best_model()
+  File "/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/transformers/trainer.py", line 2891, in _load_best_model
+    active_adapter = model.active_adapters[0]
+TypeError: 'method' object is not subscriptable

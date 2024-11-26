@@ -1,0 +1,64 @@
+  0%|                                                                                                       | 0/166 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+ 60%|████████████████████████████████████████████████████████                                     | 100/166 [03:59<02:30,  2.28s/it]/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+{'loss': 6.4968, 'grad_norm': 59.297176361083984, 'learning_rate': 3.765060240963856e-05, 'epoch': 0.6}
+{'loss': 0.616, 'grad_norm': 60.9963493347168, 'learning_rate': 2.2590361445783133e-05, 'epoch': 1.2}
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")                                 
+{'eval_loss': 0.44160589575767517, 'eval_accuracy': 0.8694992412746586, 'eval_runtime': 12.71, 'eval_samples_per_second': 103.697, 'eval_steps_per_second': 1.652, 'epoch': 1.2}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 166/166 [06:26<00:00,  1.92s/it]2024-11-26 05:50:01,662 - WARNING - __main__ - Error while loading best model: 'method' object is not subscriptable
+{'loss': 0.3941, 'grad_norm': 45.82159423828125, 'learning_rate': 7.530120481927712e-06, 'epoch': 1.81}
+2024-11-26 05:50:01,664 - INFO - __main__ - Loaded best model and activated adapter: <bound method PeftAdapterMixin.active_adapters of BloomForSequenceClassification(
+  (transformer): BloomModel(
+    (word_embeddings): Embedding(250880, 2048)
+    (word_embeddings_layernorm): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+    (h): ModuleList(
+      (0-23): 24 x BloomBlock(
+        (input_layernorm): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (self_attention): BloomAttention(
+          (query_key_value): Linear8bitLt(
+            in_features=2048, out_features=6144, bias=True
+            (lora_dropout): ModuleDict(
+              (default): Dropout(p=0.1, inplace=False)
+            )
+            (lora_A): ModuleDict(
+              (default): Linear(in_features=2048, out_features=8, bias=False)
+            )
+            (lora_B): ModuleDict(
+              (default): Linear(in_features=8, out_features=6144, bias=False)
+            )
+            (lora_embedding_A): ParameterDict()
+            (lora_embedding_B): ParameterDict()
+          )
+          (dense): Linear8bitLt(in_features=2048, out_features=2048, bias=True)
+          (attention_dropout): Dropout(p=0.0, inplace=False)
+        )
+        (post_attention_layernorm): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): BloomMLP(
+          (dense_h_to_4h): Linear8bitLt(in_features=2048, out_features=8192, bias=True)
+          (gelu_impl): BloomGelu()
+          (dense_4h_to_h): Linear8bitLt(in_features=8192, out_features=2048, bias=True)
+        )
+      )
+    )
+    (ln_f): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+  )
+  (score): ModulesToSaveWrapper(
+    (original_module): Linear(in_features=2048, out_features=3, bias=False)
+    (modules_to_save): ModuleDict(
+      (default): Linear(in_features=2048, out_features=3, bias=False)
+    )
+  )
+)>
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 166/166 [06:26<00:00,  2.33s/it]
+{'train_runtime': 388.2251, 'train_samples_per_second': 27.144, 'train_steps_per_second': 0.428, 'train_loss': 2.292913049100393, 'epoch': 2.0}
+Evaluation on English validation set:
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+100%|███████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:12<00:00,  1.74it/s]
+Accuracy on English validation set: 0.8892261001517451
+Evaluation on Gujarati dataset:
+/home/pooja/anaconda3/envs/kg_rag/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+100%|███████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:12<00:00,  1.71it/s]
+Accuracy on Gujarati test data: 0.44309559939301973
